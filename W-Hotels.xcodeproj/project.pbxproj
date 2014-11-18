@@ -24,6 +24,18 @@
 		0327CD841A1A00410056EF22 /* W-Center-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0327CD821A1A00410056EF22 /* W-Center-logo.png */; };
 		0327CD851A1A00410056EF22 /* WSplashScreenPicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0327CD831A1A00410056EF22 /* WSplashScreenPicture.jpg */; };
 		0327CD881A1A076A0056EF22 /* nextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0327CD871A1A076A0056EF22 /* nextViewViewController.m */; };
+		588172B51A1AD57A00E865E5 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588172B41A1AD57A00E865E5 /* TabViewController.m */; };
+		588172B81A1ADAC300E865E5 /* DrinkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588172B71A1ADAC300E865E5 /* DrinkController.m */; };
+		588172C01A1AE04600E865E5 /* Dine-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 588172BB1A1AE04600E865E5 /* Dine-green.png */; };
+		588172C11A1AE04600E865E5 /* Drinks-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 588172BC1A1AE04600E865E5 /* Drinks-white.png */; };
+		588172C21A1AE04600E865E5 /* Go-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 588172BD1A1AE04600E865E5 /* Go-white.png */; };
+		588172C31A1AE04600E865E5 /* Induldge-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 588172BE1A1AE04600E865E5 /* Induldge-white.png */; };
+		588172C41A1AE04600E865E5 /* W-W-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 588172BF1A1AE04600E865E5 /* W-W-white.png */; };
+		588172C71A1AE11000E865E5 /* Dine-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 588172C61A1AE11000E865E5 /* Dine-white.png */; };
+		588172CA1A1AE14100E865E5 /* Drinks-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 588172C91A1AE14100E865E5 /* Drinks-green.png */; };
+		588172CC1A1AE17000E865E5 /* Go-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 588172CB1A1AE17000E865E5 /* Go-green.png */; };
+		588172CE1A1AE19000E865E5 /* Induldge-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 588172CD1A1AE19000E865E5 /* Induldge-green.png */; };
+		588172D01A1AE1B100E865E5 /* W-W-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 588172CF1A1AE1B100E865E5 /* W-W-green.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +72,20 @@
 		0327CD831A1A00410056EF22 /* WSplashScreenPicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WSplashScreenPicture.jpg; sourceTree = "<group>"; };
 		0327CD861A1A076A0056EF22 /* nextViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nextViewViewController.h; sourceTree = "<group>"; };
 		0327CD871A1A076A0056EF22 /* nextViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nextViewViewController.m; sourceTree = "<group>"; };
+		588172B31A1AD57A00E865E5 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		588172B41A1AD57A00E865E5 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		588172B61A1ADAC300E865E5 /* DrinkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkController.h; sourceTree = "<group>"; };
+		588172B71A1ADAC300E865E5 /* DrinkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkController.m; sourceTree = "<group>"; };
+		588172BB1A1AE04600E865E5 /* Dine-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dine-green.png"; sourceTree = "<group>"; };
+		588172BC1A1AE04600E865E5 /* Drinks-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drinks-white.png"; sourceTree = "<group>"; };
+		588172BD1A1AE04600E865E5 /* Go-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Go-white.png"; sourceTree = "<group>"; };
+		588172BE1A1AE04600E865E5 /* Induldge-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Induldge-white.png"; sourceTree = "<group>"; };
+		588172BF1A1AE04600E865E5 /* W-W-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "W-W-white.png"; sourceTree = "<group>"; };
+		588172C61A1AE11000E865E5 /* Dine-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dine-white.png"; sourceTree = "<group>"; };
+		588172C91A1AE14100E865E5 /* Drinks-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drinks-green.png"; sourceTree = "<group>"; };
+		588172CB1A1AE17000E865E5 /* Go-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Go-green.png"; sourceTree = "<group>"; };
+		588172CD1A1AE19000E865E5 /* Induldge-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Induldge-green.png"; sourceTree = "<group>"; };
+		588172CF1A1AE1B100E865E5 /* W-W-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "W-W-green.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,11 +149,16 @@
 				0327CD5B1A1A00160056EF22 /* AppDelegate.h */,
 				0327CD5C1A1A00160056EF22 /* AppDelegate.m */,
 				0327CD5E1A1A00160056EF22 /* Main.storyboard */,
+				588172B61A1ADAC300E865E5 /* DrinkController.h */,
+				588172B71A1ADAC300E865E5 /* DrinkController.m */,
+				588172B31A1AD57A00E865E5 /* TabViewController.h */,
+				588172B41A1AD57A00E865E5 /* TabViewController.m */,
 				0327CD861A1A076A0056EF22 /* nextViewViewController.h */,
 				0327CD871A1A076A0056EF22 /* nextViewViewController.m */,
 				0327CD611A1A00160056EF22 /* ViewController.h */,
 				0327CD621A1A00160056EF22 /* ViewController.m */,
 				0327CD641A1A00160056EF22 /* Images.xcassets */,
+				588172B91A1ADF6E00E865E5 /* Images */,
 				0327CD531A1A00160056EF22 /* Supporting Files */,
 			);
 			path = "W-Hotels";
@@ -169,6 +200,47 @@
 				0327CD831A1A00410056EF22 /* WSplashScreenPicture.jpg */,
 			);
 			name = SplashScreen;
+			sourceTree = "<group>";
+		};
+		588172B91A1ADF6E00E865E5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				588172BA1A1ADF8300E865E5 /* TabHolderImages */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		588172BA1A1ADF8300E865E5 /* TabHolderImages */ = {
+			isa = PBXGroup;
+			children = (
+				588172C81A1AE11C00E865E5 /* Green */,
+				588172C51A1AE06800E865E5 /* White */,
+			);
+			name = TabHolderImages;
+			sourceTree = "<group>";
+		};
+		588172C51A1AE06800E865E5 /* White */ = {
+			isa = PBXGroup;
+			children = (
+				588172C61A1AE11000E865E5 /* Dine-white.png */,
+				588172BC1A1AE04600E865E5 /* Drinks-white.png */,
+				588172BD1A1AE04600E865E5 /* Go-white.png */,
+				588172BE1A1AE04600E865E5 /* Induldge-white.png */,
+				588172BF1A1AE04600E865E5 /* W-W-white.png */,
+			);
+			name = White;
+			sourceTree = "<group>";
+		};
+		588172C81A1AE11C00E865E5 /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				588172CF1A1AE1B100E865E5 /* W-W-green.png */,
+				588172CD1A1AE19000E865E5 /* Induldge-green.png */,
+				588172CB1A1AE17000E865E5 /* Go-green.png */,
+				588172C91A1AE14100E865E5 /* Drinks-green.png */,
+				588172BB1A1AE04600E865E5 /* Dine-green.png */,
+			);
+			name = Green;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,11 +319,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588172CA1A1AE14100E865E5 /* Drinks-green.png in Resources */,
 				0327CD851A1A00410056EF22 /* WSplashScreenPicture.jpg in Resources */,
+				588172D01A1AE1B100E865E5 /* W-W-green.png in Resources */,
+				588172CC1A1AE17000E865E5 /* Go-green.png in Resources */,
+				588172C01A1AE04600E865E5 /* Dine-green.png in Resources */,
 				0327CD651A1A00160056EF22 /* Images.xcassets in Resources */,
+				588172C41A1AE04600E865E5 /* W-W-white.png in Resources */,
+				588172C31A1AE04600E865E5 /* Induldge-white.png in Resources */,
+				588172C21A1AE04600E865E5 /* Go-white.png in Resources */,
 				0327CD571A1A00160056EF22 /* InfoPlist.strings in Resources */,
 				0327CD601A1A00160056EF22 /* Main.storyboard in Resources */,
+				588172C11A1AE04600E865E5 /* Drinks-white.png in Resources */,
+				588172C71A1AE11000E865E5 /* Dine-white.png in Resources */,
 				0327CD841A1A00410056EF22 /* W-Center-logo.png in Resources */,
+				588172CE1A1AE19000E865E5 /* Induldge-green.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +356,8 @@
 				0327CD631A1A00160056EF22 /* ViewController.m in Sources */,
 				0327CD5D1A1A00160056EF22 /* AppDelegate.m in Sources */,
 				0327CD591A1A00160056EF22 /* main.m in Sources */,
+				588172B81A1ADAC300E865E5 /* DrinkController.m in Sources */,
+				588172B51A1AD57A00E865E5 /* TabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +487,6 @@
 				INFOPLIST_FILE = "W-Hotels/W-Hotels-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -418,7 +501,6 @@
 				INFOPLIST_FILE = "W-Hotels/W-Hotels-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
