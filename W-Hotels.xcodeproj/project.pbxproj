@@ -401,7 +401,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "W-Hotels/W-Hotels-Prefix.pch";
 				INFOPLIST_FILE = "W-Hotels/W-Hotels-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -414,7 +416,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "W-Hotels/W-Hotels-Prefix.pch";
 				INFOPLIST_FILE = "W-Hotels/W-Hotels-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -478,6 +482,7 @@
 				0327CD7D1A1A00170056EF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0327CD7E1A1A00170056EF22 /* Build configuration list for PBXNativeTarget "W-HotelsTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +491,7 @@
 				0327CD801A1A00170056EF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

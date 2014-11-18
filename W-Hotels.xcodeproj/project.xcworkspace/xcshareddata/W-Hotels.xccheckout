@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>135CFF31-B87D-41B2-8B83-A0F8330482FB</string>
+	<string>3AE8D35F-B730-469D-854B-76D18C45B632</string>
 	<key>IDESourceControlProjectName</key>
 	<string>W-Hotels</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D80AE1A0-503C-42EB-9366-064E95916542</key>
-		<string>https://github.com/JoshHarris85/WHotels.git</string>
+		<key>E8256589-DA28-40B9-A999-1A0AAD9F1CF4</key>
+		<string>https://github.com/JoshHarris85/W-Hotels.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>W-Hotels.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D80AE1A0-503C-42EB-9366-064E95916542</key>
+		<key>E8256589-DA28-40B9-A999-1A0AAD9F1CF4</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/JoshHarris85/WHotels.git</string>
+	<string>https://github.com/JoshHarris85/W-Hotels.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D80AE1A0-503C-42EB-9366-064E95916542</string>
+	<string>E8256589-DA28-40B9-A999-1A0AAD9F1CF4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D80AE1A0-503C-42EB-9366-064E95916542</string>
+			<string>E8256589-DA28-40B9-A999-1A0AAD9F1CF4</string>
 			<key>IDESourceControlWCCName</key>
 			<string>W-Hotels</string>
 		</dict>
