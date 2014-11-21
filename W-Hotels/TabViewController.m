@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    [[UITabBar appearance] setBarTintColor:[UIColor blackColor]];
+    [[UITabBar appearance] setSelectedImageTintColor:[UIColor colorWithRed:0.700 green:1.000 blue:0.0875 alpha:1]];
     
 }
 

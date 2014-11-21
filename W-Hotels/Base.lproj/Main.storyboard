@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4md-sB-BJF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4md-sB-BJF">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,11 +19,9 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lG1-Db-Bbx">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="163"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zAF-SL-SYf">
                                 <rect key="frame" x="111" y="267" width="99" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -38,7 +37,7 @@
             </objects>
             <point key="canvasLocation" x="578" y="1"/>
         </scene>
-        <!--Drink Controller - Drink-->
+        <!--Drink-->
         <scene sceneID="3IC-9V-VRl">
             <objects>
                 <viewController id="4SE-TM-bdj" customClass="DrinkController" sceneMemberID="viewController">
@@ -49,9 +48,9 @@
                     <view key="view" contentMode="scaleToFill" id="aym-PZ-PPM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Drink" image="Drinks-white.png" id="0a4-XS-Dtg"/>
+                    <tabBarItem key="tabBarItem" title="Drink" image="Drinks-green.png" id="0a4-XS-Dtg"/>
                     <navigationItem key="navigationItem" id="Ob6-fI-OVk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iRy-va-hdQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -63,7 +62,7 @@
             <objects>
                 <tabBarController definesPresentationContext="YES" id="5mp-JB-E56" customClass="TabViewController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="eYK-bC-AOc"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Qao-Q6-OFT">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -81,7 +80,7 @@
             </objects>
             <point key="canvasLocation" x="1445" y="26"/>
         </scene>
-        <!--View Controller - Dine-->
+        <!--Dine-->
         <scene sceneID="BV9-OL-R1u">
             <objects>
                 <viewController id="MFS-us-tPO" sceneMemberID="viewController">
@@ -92,15 +91,15 @@
                     <view key="view" contentMode="scaleToFill" id="kom-iO-NwX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Dine" image="Dine-white.png" id="bgd-Tb-N4c"/>
+                    <tabBarItem key="tabBarItem" title="Dine" image="Dine-green.png" id="bgd-Tb-N4c"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gyX-aN-uOc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1985" y="-174"/>
         </scene>
-        <!--View Controller - What/Whenever-->
+        <!--What/Whenever-->
         <scene sceneID="wMx-r8-8Nf">
             <objects>
                 <viewController id="JSI-Hn-47N" sceneMemberID="viewController">
@@ -111,15 +110,15 @@
                     <view key="view" contentMode="scaleToFill" id="ghs-cG-0b5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="What/Whenever" image="W-W-white.png" id="ntJ-MI-MEN"/>
+                    <tabBarItem key="tabBarItem" title="What/Whenever" image="W-W-green.png" id="ntJ-MI-MEN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T69-Ve-XE6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2007" y="629"/>
         </scene>
-        <!--View Controller - Indulge-->
+        <!--Indulge-->
         <scene sceneID="K6z-1X-Fah">
             <objects>
                 <viewController id="sMR-29-jhp" sceneMemberID="viewController">
@@ -130,15 +129,15 @@
                     <view key="view" contentMode="scaleToFill" id="G99-Jw-bGz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Indulge" image="Induldge-white.png" id="mUw-vi-S4a"/>
+                    <tabBarItem key="tabBarItem" title="Indulge" image="Induldge-green.png" id="mUw-vi-S4a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Co-Pe-AmY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2045" y="1377"/>
         </scene>
-        <!--View Controller - Go-->
+        <!--Go-->
         <scene sceneID="btQ-PH-kpM">
             <objects>
                 <viewController id="ddl-0k-cid" sceneMemberID="viewController">
@@ -149,9 +148,9 @@
                     <view key="view" contentMode="scaleToFill" id="agj-or-XAo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Go" image="Go-white.png" id="km6-b0-pwR"/>
+                    <tabBarItem key="tabBarItem" title="Go" image="Go-green.png" id="km6-b0-pwR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gE6-I8-Nws" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -177,11 +176,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Dine-white.png" width="41" height="83"/>
-        <image name="Drinks-white.png" width="51" height="81"/>
-        <image name="Go-white.png" width="75" height="77"/>
-        <image name="Induldge-white.png" width="60" height="80"/>
-        <image name="W-W-white.png" width="110" height="95"/>
+        <image name="Dine-green.png" width="16" height="32"/>
+        <image name="Drinks-green.png" width="20" height="32"/>
+        <image name="Go-green.png" width="31" height="32"/>
+        <image name="Induldge-green.png" width="24" height="32"/>
+        <image name="W-W-green.png" width="37" height="32"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
