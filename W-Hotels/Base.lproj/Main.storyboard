@@ -83,7 +83,7 @@
         <!--Dine-->
         <scene sceneID="BV9-OL-R1u">
             <objects>
-                <viewController id="MFS-us-tPO" sceneMemberID="viewController">
+                <viewController id="MFS-us-tPO" customClass="DineController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rWx-qN-dJN"/>
                         <viewControllerLayoutGuide type="bottom" id="jyn-6U-Qfk"/>
@@ -91,13 +91,21 @@
                     <view key="view" contentMode="scaleToFill" id="kom-iO-NwX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DinePicture.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mwj-Ln-Mtc">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dine" image="Dine-green.png" id="bgd-Tb-N4c"/>
+                    <connections>
+                        <outlet property="backgroundImage" destination="mwj-Ln-Mtc" id="snC-e1-kD8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gyX-aN-uOc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1985" y="-174"/>
+            <point key="canvasLocation" x="1985" y="-172"/>
         </scene>
         <!--What/Whenever-->
         <scene sceneID="wMx-r8-8Nf">
@@ -177,6 +185,7 @@
     </scenes>
     <resources>
         <image name="Dine-green.png" width="16" height="32"/>
+        <image name="DinePicture.jpg" width="640" height="887"/>
         <image name="Drinks-green.png" width="20" height="32"/>
         <image name="Go-green.png" width="31" height="32"/>
         <image name="Induldge-green.png" width="24" height="32"/>
