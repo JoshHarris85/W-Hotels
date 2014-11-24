@@ -95,6 +95,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DinePicture.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mwj-Ln-Mtc">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dine.png" translatesAutoresizingMaskIntoConstraints="NO" id="fcY-hl-l5b">
+                                <rect key="frame" x="16" y="222" width="105" height="34"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="W-Center-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mej-E3-uyH">
+                                <rect key="frame" x="247" y="208" width="57" height="51"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -216,11 +222,13 @@
         <image name="Background-transparent.png" width="641" height="715"/>
         <image name="Call-W-W-button.png" width="522" height="88"/>
         <image name="Dine-green.png" width="16" height="32"/>
+        <image name="Dine.png" width="116" height="38"/>
         <image name="DinePicture.jpg" width="640" height="887"/>
         <image name="Drinks-green.png" width="20" height="32"/>
         <image name="Go-green.png" width="31" height="32"/>
         <image name="Induldge-green.png" width="24" height="32"/>
         <image name="Small-W.png" width="75" height="75"/>
+        <image name="W-Center-logo.png" width="198" height="200"/>
         <image name="W-W-green.png" width="37" height="32"/>
         <image name="What-Whenever.png" width="460" height="47"/>
         <image name="WhateverWheneverPicture.jpg" width="640" height="980"/>
