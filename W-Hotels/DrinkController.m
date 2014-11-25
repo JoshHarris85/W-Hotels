@@ -9,7 +9,6 @@
 #import "DrinkController.h"
 
 @interface DrinkController ()
-
 @end
 
 @implementation DrinkController
@@ -21,6 +20,10 @@
         // Custom initialization
     }
     return self;
+}
+
+- (BOOL)prefersStatusBarHidden{
+    return YES;
 }
 
 - (void)viewDidLoad

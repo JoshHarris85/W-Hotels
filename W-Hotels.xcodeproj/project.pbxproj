@@ -23,7 +23,18 @@
 		0327CD781A1A00170056EF22 /* W_HotelsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0327CD771A1A00160056EF22 /* W_HotelsTests.m */; };
 		0327CD841A1A00410056EF22 /* W-Center-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0327CD821A1A00410056EF22 /* W-Center-logo.png */; };
 		0327CD851A1A00410056EF22 /* WSplashScreenPicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0327CD831A1A00410056EF22 /* WSplashScreenPicture.jpg */; };
-		0327CD881A1A076A0056EF22 /* nextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0327CD871A1A076A0056EF22 /* nextViewViewController.m */; };
+		0376A9091A2438DC00605EC4 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0376A9081A2438DC00605EC4 /* ProfileViewController.m */; };
+		0376A90C1A243EDD00605EC4 /* Confimation-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A90B1A243EDD00605EC4 /* Confimation-button.png */; };
+		0376A90E1A24423D00605EC4 /* Blank-Text-box.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A90D1A24423D00605EC4 /* Blank-Text-box.png */; };
+		0376A9111A2468E300605EC4 /* DrinksPicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0376A9101A2468E300605EC4 /* DrinksPicture.jpg */; };
+		0376A9131A246CFC00605EC4 /* Drinks.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A9121A246CFC00605EC4 /* Drinks.png */; };
+		0376A9151A246EBE00605EC4 /* Line-Space.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A9141A246EBE00605EC4 /* Line-Space.png */; };
+		0376A9171A246F5800605EC4 /* Profile button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A9161A246F5800605EC4 /* Profile button.png */; };
+		0376A91A1A24782700605EC4 /* DrinksText_DayoftheDead_Condensed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A9181A24782700605EC4 /* DrinksText_DayoftheDead_Condensed.png */; };
+		0376A91B1A24782700605EC4 /* DrinksText_LivingRoomBar_Condensed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A9191A24782700605EC4 /* DrinksText_LivingRoomBar_Condensed.png */; };
+		0376A91D1A2478A100605EC4 /* Rewards-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A91C1A2478A100605EC4 /* Rewards-button.png */; };
+		0376A91F1A2478B100605EC4 /* Arrow-up-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A91E1A2478B100605EC4 /* Arrow-up-button.png */; };
+		0376A9221A24795F00605EC4 /* Arrow-down-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A9211A24795F00605EC4 /* Arrow-down-button.png */; };
 		172CD8D81A22E5C600D18A25 /* DineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CD8D71A22E5C600D18A25 /* DineController.m */; };
 		172CD8DB1A22E64E00D18A25 /* DinePicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 172CD8DA1A22E64E00D18A25 /* DinePicture.jpg */; };
 		172CD8DE1A22E9D700D18A25 /* WWController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CD8DD1A22E9D700D18A25 /* WWController.m */; };
@@ -80,8 +91,19 @@
 		0327CD771A1A00160056EF22 /* W_HotelsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = W_HotelsTests.m; sourceTree = "<group>"; };
 		0327CD821A1A00410056EF22 /* W-Center-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "W-Center-logo.png"; sourceTree = "<group>"; };
 		0327CD831A1A00410056EF22 /* WSplashScreenPicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WSplashScreenPicture.jpg; sourceTree = "<group>"; };
-		0327CD861A1A076A0056EF22 /* nextViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nextViewViewController.h; sourceTree = "<group>"; };
-		0327CD871A1A076A0056EF22 /* nextViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nextViewViewController.m; sourceTree = "<group>"; };
+		0376A9071A2438DC00605EC4 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ../ProfileViewController.h; sourceTree = "<group>"; };
+		0376A9081A2438DC00605EC4 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ../ProfileViewController.m; sourceTree = "<group>"; };
+		0376A90B1A243EDD00605EC4 /* Confimation-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Confimation-button.png"; sourceTree = "<group>"; };
+		0376A90D1A24423D00605EC4 /* Blank-Text-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blank-Text-box.png"; sourceTree = "<group>"; };
+		0376A9101A2468E300605EC4 /* DrinksPicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DrinksPicture.jpg; sourceTree = "<group>"; };
+		0376A9121A246CFC00605EC4 /* Drinks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drinks.png; sourceTree = "<group>"; };
+		0376A9141A246EBE00605EC4 /* Line-Space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Line-Space.png"; sourceTree = "<group>"; };
+		0376A9161A246F5800605EC4 /* Profile button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile button.png"; sourceTree = "<group>"; };
+		0376A9181A24782700605EC4 /* DrinksText_DayoftheDead_Condensed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrinksText_DayoftheDead_Condensed.png; sourceTree = "<group>"; };
+		0376A9191A24782700605EC4 /* DrinksText_LivingRoomBar_Condensed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrinksText_LivingRoomBar_Condensed.png; sourceTree = "<group>"; };
+		0376A91C1A2478A100605EC4 /* Rewards-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rewards-button.png"; sourceTree = "<group>"; };
+		0376A91E1A2478B100605EC4 /* Arrow-up-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-up-button.png"; sourceTree = "<group>"; };
+		0376A9211A24795F00605EC4 /* Arrow-down-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-down-button.png"; sourceTree = "<group>"; };
 		172CD8D61A22E5C600D18A25 /* DineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DineController.h; sourceTree = "<group>"; };
 		172CD8D71A22E5C600D18A25 /* DineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DineController.m; sourceTree = "<group>"; };
 		172CD8DA1A22E64E00D18A25 /* DinePicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DinePicture.jpg; sourceTree = "<group>"; };
@@ -167,25 +189,24 @@
 		0327CD521A1A00160056EF22 /* W-Hotels */ = {
 			isa = PBXGroup;
 			children = (
-				0327CD811A1A00240056EF22 /* SplashScreen */,
 				0327CD5B1A1A00160056EF22 /* AppDelegate.h */,
 				0327CD5C1A1A00160056EF22 /* AppDelegate.m */,
 				0327CD5E1A1A00160056EF22 /* Main.storyboard */,
+				172CD8D61A22E5C600D18A25 /* DineController.h */,
+				172CD8D71A22E5C600D18A25 /* DineController.m */,
+				172CD8DC1A22E9D700D18A25 /* WWController.h */,
+				172CD8DD1A22E9D700D18A25 /* WWController.m */,
 				588172B61A1ADAC300E865E5 /* DrinkController.h */,
 				588172B71A1ADAC300E865E5 /* DrinkController.m */,
 				588172B31A1AD57A00E865E5 /* TabViewController.h */,
 				588172B41A1AD57A00E865E5 /* TabViewController.m */,
-				0327CD861A1A076A0056EF22 /* nextViewViewController.h */,
-				0327CD871A1A076A0056EF22 /* nextViewViewController.m */,
+				0376A9071A2438DC00605EC4 /* ProfileViewController.h */,
+				0376A9081A2438DC00605EC4 /* ProfileViewController.m */,
 				0327CD611A1A00160056EF22 /* ViewController.h */,
 				0327CD621A1A00160056EF22 /* ViewController.m */,
 				0327CD641A1A00160056EF22 /* Images.xcassets */,
 				588172B91A1ADF6E00E865E5 /* Images */,
 				0327CD531A1A00160056EF22 /* Supporting Files */,
-				172CD8D61A22E5C600D18A25 /* DineController.h */,
-				172CD8D71A22E5C600D18A25 /* DineController.m */,
-				172CD8DC1A22E9D700D18A25 /* WWController.h */,
-				172CD8DD1A22E9D700D18A25 /* WWController.m */,
 			);
 			path = "W-Hotels";
 			sourceTree = "<group>";
@@ -228,6 +249,31 @@
 			name = SplashScreen;
 			sourceTree = "<group>";
 		};
+		0376A90A1A243EBF00605EC4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0376A90D1A24423D00605EC4 /* Blank-Text-box.png */,
+				0376A90B1A243EDD00605EC4 /* Confimation-button.png */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		0376A90F1A2468D600605EC4 /* Drink */ = {
+			isa = PBXGroup;
+			children = (
+				0376A9181A24782700605EC4 /* DrinksText_DayoftheDead_Condensed.png */,
+				0376A9191A24782700605EC4 /* DrinksText_LivingRoomBar_Condensed.png */,
+				0376A91E1A2478B100605EC4 /* Arrow-up-button.png */,
+				0376A9141A246EBE00605EC4 /* Line-Space.png */,
+				0376A9211A24795F00605EC4 /* Arrow-down-button.png */,
+				0376A9121A246CFC00605EC4 /* Drinks.png */,
+				0376A91C1A2478A100605EC4 /* Rewards-button.png */,
+				0376A9161A246F5800605EC4 /* Profile button.png */,
+				0376A9101A2468E300605EC4 /* DrinksPicture.jpg */,
+			);
+			name = Drink;
+			sourceTree = "<group>";
+		};
 		172CD8D91A22E64200D18A25 /* Dine */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +307,9 @@
 		588172B91A1ADF6E00E865E5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0376A90F1A2468D600605EC4 /* Drink */,
+				0376A90A1A243EBF00605EC4 /* Profile */,
+				0327CD811A1A00240056EF22 /* SplashScreen */,
 				172CD8DF1A22EA8C00D18A25 /* Whatever_Whenever */,
 				172CD8D91A22E64200D18A25 /* Dine */,
 				588172BA1A1ADF8300E865E5 /* TabHolderImages */,
@@ -378,9 +427,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0327CD851A1A00410056EF22 /* WSplashScreenPicture.jpg in Resources */,
+				0376A91A1A24782700605EC4 /* DrinksText_DayoftheDead_Condensed.png in Resources */,
 				172CD8EA1A22EC5500D18A25 /* WhateverWheneverText.png in Resources */,
+				0376A9131A246CFC00605EC4 /* Drinks.png in Resources */,
 				0327CD651A1A00160056EF22 /* Images.xcassets in Resources */,
+				0376A9111A2468E300605EC4 /* DrinksPicture.jpg in Resources */,
+				0376A91D1A2478A100605EC4 /* Rewards-button.png in Resources */,
 				172CD8E31A22EAD500D18A25 /* Background-transparent.png in Resources */,
+				0376A9151A246EBE00605EC4 /* Line-Space.png in Resources */,
 				172CD8E81A22EBD800D18A25 /* Small-W.png in Resources */,
 				172CD8E61A22EB6300D18A25 /* What-Whenever.png in Resources */,
 				588172C41A1AE04600E865E5 /* W-W-white.png in Resources */,
@@ -390,16 +444,22 @@
 				172CD8EC1A22ECB000D18A25 /* Call-W-W-button.png in Resources */,
 				588172C21A1AE04600E865E5 /* Go-white.png in Resources */,
 				581CE0491A1EE99D00BB6162 /* Drinks-green.png in Resources */,
+				0376A91B1A24782700605EC4 /* DrinksText_LivingRoomBar_Condensed.png in Resources */,
 				581CE03F1A1EE19C00BB6162 /* Dine-green.png in Resources */,
+				0376A91F1A2478B100605EC4 /* Arrow-up-button.png in Resources */,
+				0376A9221A24795F00605EC4 /* Arrow-down-button.png in Resources */,
 				172CD8E11A22EA9900D18A25 /* WhateverWheneverPicture.jpg in Resources */,
 				0327CD571A1A00160056EF22 /* InfoPlist.strings in Resources */,
 				0327CD601A1A00160056EF22 /* Main.storyboard in Resources */,
+				0376A90C1A243EDD00605EC4 /* Confimation-button.png in Resources */,
 				172CD8DB1A22E64E00D18A25 /* DinePicture.jpg in Resources */,
 				588172C11A1AE04600E865E5 /* Drinks-white.png in Resources */,
 				588172C71A1AE11000E865E5 /* Dine-white.png in Resources */,
 				0327CD841A1A00410056EF22 /* W-Center-logo.png in Resources */,
+				0376A9171A246F5800605EC4 /* Profile button.png in Resources */,
 				581CE04D1A1EEB6E00BB6162 /* Go-green.png in Resources */,
 				581CE0451A1EE5F000BB6162 /* Induldge-green.png in Resources */,
+				0376A90E1A24423D00605EC4 /* Blank-Text-box.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,9 +478,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0327CD881A1A076A0056EF22 /* nextViewViewController.m in Sources */,
 				0327CD631A1A00160056EF22 /* ViewController.m in Sources */,
 				0327CD5D1A1A00160056EF22 /* AppDelegate.m in Sources */,
+				0376A9091A2438DC00605EC4 /* ProfileViewController.m in Sources */,
 				0327CD591A1A00160056EF22 /* main.m in Sources */,
 				172CD8DE1A22E9D700D18A25 /* WWController.m in Sources */,
 				588172B81A1ADAC300E865E5 /* DrinkController.m in Sources */,

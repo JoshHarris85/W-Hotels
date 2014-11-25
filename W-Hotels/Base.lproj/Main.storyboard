@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4md-sB-BJF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4md-sB-BJF">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lG1-Db-Bbx">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="163"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="182"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zAF-SL-SYf">
                                 <rect key="frame" x="111" y="267" width="99" height="92"/>
@@ -30,14 +29,14 @@
                     <connections>
                         <outlet property="dallasImage" destination="lG1-Db-Bbx" id="rPu-fn-qB2"/>
                         <outlet property="wFont" destination="zAF-SL-SYf" id="EfP-oz-qs5"/>
-                        <segue destination="5mp-JB-E56" kind="push" identifier="splashSegue" id="Bbx-mV-Dfp"/>
+                        <segue destination="cBx-rO-Cjr" kind="push" identifier="splashSegue" id="CDA-YP-BTi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="578" y="1"/>
+            <point key="canvasLocation" x="398" y="-11"/>
         </scene>
-        <!--Drink-->
+        <!--Drink Controller - Drink-->
         <scene sceneID="3IC-9V-VRl">
             <objects>
                 <viewController id="4SE-TM-bdj" customClass="DrinkController" sceneMemberID="viewController">
@@ -48,6 +47,75 @@
                     <view key="view" contentMode="scaleToFill" id="aym-PZ-PPM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DrinksPicture.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5mB-D7-kls">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="432"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background-transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="NeP-L9-FQ8">
+                                <rect key="frame" x="0.0" y="174" width="320" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DrinksText_DayoftheDead_Condensed.png" translatesAutoresizingMaskIntoConstraints="NO" id="VrL-tj-uUe">
+                                <rect key="frame" x="10" y="184" width="250" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Drinks.png" translatesAutoresizingMaskIntoConstraints="NO" id="q4Q-Lg-zet">
+                                <rect key="frame" x="15" y="135" width="90" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Small-W.png" translatesAutoresizingMaskIntoConstraints="NO" id="ePA-no-vUI">
+                                <rect key="frame" x="255" y="126" width="45" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line-Space.png" translatesAutoresizingMaskIntoConstraints="NO" id="rYG-Vu-HK7">
+                                <rect key="frame" x="20" y="291" width="280" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line-Space.png" translatesAutoresizingMaskIntoConstraints="NO" id="t8d-Zm-k9V">
+                                <rect key="frame" x="20" y="413" width="280" height="7"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjt-0o-vg6">
+                                <rect key="frame" x="16" y="6" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DrinksText_LivingRoomBar_Condensed.png" translatesAutoresizingMaskIntoConstraints="NO" id="uXZ-eu-ZIf">
+                                <rect key="frame" x="10" y="301" width="268" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fr0-Q1-c1u">
+                                <rect key="frame" x="277" y="262" width="24" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Rewards-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7d-5C-7CF">
+                                <rect key="frame" x="277" y="184" width="23" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Arrow-down-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTx-it-w6n">
+                                <rect key="frame" x="277" y="305" width="23" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Arrow-down-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9LV-NW-gxm">
+                                <rect key="frame" x="0.0" y="0.0" width="30" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Profile button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Drink" image="Drinks-green.png" id="0a4-XS-Dtg"/>
@@ -56,6 +124,50 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iRy-va-hdQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1985" y="-952"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="qWW-7H-kv8">
+            <objects>
+                <viewController id="cBx-rO-Cjr" customClass="ProfileViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ppc-hx-bx4"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y59-KG-kYN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Juw-ty-DOx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" background="Blank-Text-box.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ai9-98-tzi">
+                                <rect key="frame" x="38" y="272" width="245" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="W-Center-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="5IK-ew-kDF">
+                                <rect key="frame" x="101" y="146" width="118" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OH5-aw-GEv">
+                                <rect key="frame" x="38" y="325" width="245" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Confimation-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5mp-JB-E56" kind="push" identifier="confirmationPushed" id="CjS-7k-BjY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12549020349979401" green="0.12156863510608673" blue="0.15686275064945221" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sxd-EW-vui"/>
+                    <connections>
+                        <outlet property="myTextField" destination="Ai9-98-tzi" id="kO6-Us-fVt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ibZ-BF-KJS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="905" y="-11"/>
         </scene>
         <!--Tab View Controller-->
         <scene sceneID="6tg-ZI-zpH">
@@ -78,9 +190,9 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I69-QR-mFW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1445" y="26"/>
+            <point key="canvasLocation" x="1365" y="-6"/>
         </scene>
-        <!--Dine-->
+        <!--Dine Controller - Dine-->
         <scene sceneID="BV9-OL-R1u">
             <objects>
                 <viewController id="MFS-us-tPO" customClass="DineController" sceneMemberID="viewController">
@@ -113,7 +225,7 @@
             </objects>
             <point key="canvasLocation" x="1985" y="-172"/>
         </scene>
-        <!--What/Whenever-->
+        <!--Controller - What/Whenever-->
         <scene sceneID="wMx-r8-8Nf">
             <objects>
                 <viewController id="JSI-Hn-47N" customClass="WWController" sceneMemberID="viewController">
@@ -161,7 +273,7 @@
             </objects>
             <point key="canvasLocation" x="2007" y="629"/>
         </scene>
-        <!--Indulge-->
+        <!--View Controller - Indulge-->
         <scene sceneID="K6z-1X-Fah">
             <objects>
                 <viewController id="sMR-29-jhp" sceneMemberID="viewController">
@@ -180,7 +292,7 @@
             </objects>
             <point key="canvasLocation" x="2045" y="1377"/>
         </scene>
-        <!--Go-->
+        <!--View Controller - Go-->
         <scene sceneID="btQ-PH-kpM">
             <objects>
                 <viewController id="ddl-0k-cid" sceneMemberID="viewController">
@@ -219,14 +331,24 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Arrow-down-button.png" width="37" height="37"/>
         <image name="Background-transparent.png" width="641" height="715"/>
+        <image name="Blank-Text-box.png" width="523" height="88"/>
         <image name="Call-W-W-button.png" width="522" height="88"/>
+        <image name="Confimation-button.png" width="523" height="88"/>
         <image name="Dine-green.png" width="16" height="32"/>
         <image name="Dine.png" width="116" height="38"/>
         <image name="DinePicture.jpg" width="640" height="887"/>
         <image name="Drinks-green.png" width="20" height="32"/>
+        <image name="Drinks.png" width="185" height="38"/>
+        <image name="DrinksPicture.jpg" width="640" height="926"/>
+        <image name="DrinksText_DayoftheDead_Condensed.png" width="488" height="205"/>
+        <image name="DrinksText_LivingRoomBar_Condensed.png" width="2032" height="1142"/>
         <image name="Go-green.png" width="31" height="32"/>
         <image name="Induldge-green.png" width="24" height="32"/>
+        <image name="Line-Space.png" width="577" height="5"/>
+        <image name="Profile button.png" width="40" height="40"/>
+        <image name="Rewards-button.png" width="42" height="41"/>
         <image name="Small-W.png" width="75" height="75"/>
         <image name="W-Center-logo.png" width="198" height="200"/>
         <image name="W-W-green.png" width="37" height="32"/>
