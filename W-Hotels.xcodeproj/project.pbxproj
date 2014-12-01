@@ -45,6 +45,10 @@
 		172CD8EA1A22EC5500D18A25 /* WhateverWheneverText.png in Resources */ = {isa = PBXBuildFile; fileRef = 172CD8E91A22EC5500D18A25 /* WhateverWheneverText.png */; };
 		172CD8EC1A22ECB000D18A25 /* Call-W-W-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 172CD8EB1A22ECB000D18A25 /* Call-W-W-button.png */; };
 		172CD8EE1A22F69100D18A25 /* Dine.png in Resources */ = {isa = PBXBuildFile; fileRef = 172CD8ED1A22F69100D18A25 /* Dine.png */; };
+		17FD793E1A2D314E00136B87 /* Dine_CookHall_Condensed.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FD793C1A2D314E00136B87 /* Dine_CookHall_Condensed.png */; };
+		17FD793F1A2D314E00136B87 /* Dine_TheLivingRoom_Condensed.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FD793D1A2D314E00136B87 /* Dine_TheLivingRoom_Condensed.png */; };
+		17FD79431A2D315500136B87 /* Dine_CookHall_Expanded.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FD79411A2D315500136B87 /* Dine_CookHall_Expanded.png */; };
+		17FD79441A2D315500136B87 /* Dine_TheLivingRoom_Expanded.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FD79421A2D315500136B87 /* Dine_TheLivingRoom_Expanded.png */; };
 		581CE03A1A1EDEF300BB6162 /* W-W-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 581CE0351A1EDEF300BB6162 /* W-W-green.png */; };
 		581CE03F1A1EE19C00BB6162 /* Dine-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 581CE03E1A1EE19C00BB6162 /* Dine-green.png */; };
 		581CE0451A1EE5F000BB6162 /* Induldge-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 581CE0441A1EE5F000BB6162 /* Induldge-green.png */; };
@@ -116,6 +120,10 @@
 		172CD8E91A22EC5500D18A25 /* WhateverWheneverText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhateverWheneverText.png; sourceTree = "<group>"; };
 		172CD8EB1A22ECB000D18A25 /* Call-W-W-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Call-W-W-button.png"; sourceTree = "<group>"; };
 		172CD8ED1A22F69100D18A25 /* Dine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dine.png; sourceTree = "<group>"; };
+		17FD793C1A2D314E00136B87 /* Dine_CookHall_Condensed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dine_CookHall_Condensed.png; sourceTree = "<group>"; };
+		17FD793D1A2D314E00136B87 /* Dine_TheLivingRoom_Condensed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dine_TheLivingRoom_Condensed.png; sourceTree = "<group>"; };
+		17FD79411A2D315500136B87 /* Dine_CookHall_Expanded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dine_CookHall_Expanded.png; sourceTree = "<group>"; };
+		17FD79421A2D315500136B87 /* Dine_TheLivingRoom_Expanded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dine_TheLivingRoom_Expanded.png; sourceTree = "<group>"; };
 		581CE0351A1EDEF300BB6162 /* W-W-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "W-W-green.png"; sourceTree = "<group>"; };
 		581CE03E1A1EE19C00BB6162 /* Dine-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dine-green.png"; sourceTree = "<group>"; };
 		581CE0441A1EE5F000BB6162 /* Induldge-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Induldge-green.png"; sourceTree = "<group>"; };
@@ -277,6 +285,8 @@
 		172CD8D91A22E64200D18A25 /* Dine */ = {
 			isa = PBXGroup;
 			children = (
+				17FD79401A2D315500136B87 /* Dine Expanded */,
+				17FD793B1A2D314E00136B87 /* Dine Condensed */,
 				172CD8ED1A22F69100D18A25 /* Dine.png */,
 				172CD8DA1A22E64E00D18A25 /* DinePicture.jpg */,
 			);
@@ -302,6 +312,25 @@
 				172CD8E51A22EB6300D18A25 /* What-Whenever.png */,
 			);
 			name = icons;
+			sourceTree = "<group>";
+		};
+		17FD793B1A2D314E00136B87 /* Dine Condensed */ = {
+			isa = PBXGroup;
+			children = (
+				17FD793C1A2D314E00136B87 /* Dine_CookHall_Condensed.png */,
+				17FD793D1A2D314E00136B87 /* Dine_TheLivingRoom_Condensed.png */,
+			);
+			path = "Dine Condensed";
+			sourceTree = "<group>";
+		};
+		17FD79401A2D315500136B87 /* Dine Expanded */ = {
+			isa = PBXGroup;
+			children = (
+				17FD79411A2D315500136B87 /* Dine_CookHall_Expanded.png */,
+				17FD79421A2D315500136B87 /* Dine_TheLivingRoom_Expanded.png */,
+			);
+			name = "Dine Expanded";
+			path = "Dine Condensed/Dine Expanded";
 			sourceTree = "<group>";
 		};
 		588172B91A1ADF6E00E865E5 /* Images */ = {
@@ -438,6 +467,7 @@
 				172CD8E81A22EBD800D18A25 /* Small-W.png in Resources */,
 				172CD8E61A22EB6300D18A25 /* What-Whenever.png in Resources */,
 				588172C41A1AE04600E865E5 /* W-W-white.png in Resources */,
+				17FD79441A2D315500136B87 /* Dine_TheLivingRoom_Expanded.png in Resources */,
 				588172C31A1AE04600E865E5 /* Induldge-white.png in Resources */,
 				172CD8EE1A22F69100D18A25 /* Dine.png in Resources */,
 				581CE03A1A1EDEF300BB6162 /* W-W-green.png in Resources */,
@@ -452,6 +482,7 @@
 				0327CD571A1A00160056EF22 /* InfoPlist.strings in Resources */,
 				0327CD601A1A00160056EF22 /* Main.storyboard in Resources */,
 				0376A90C1A243EDD00605EC4 /* Confimation-button.png in Resources */,
+				17FD793F1A2D314E00136B87 /* Dine_TheLivingRoom_Condensed.png in Resources */,
 				172CD8DB1A22E64E00D18A25 /* DinePicture.jpg in Resources */,
 				588172C11A1AE04600E865E5 /* Drinks-white.png in Resources */,
 				588172C71A1AE11000E865E5 /* Dine-white.png in Resources */,
@@ -459,7 +490,9 @@
 				0376A9171A246F5800605EC4 /* Profile button.png in Resources */,
 				581CE04D1A1EEB6E00BB6162 /* Go-green.png in Resources */,
 				581CE0451A1EE5F000BB6162 /* Induldge-green.png in Resources */,
+				17FD793E1A2D314E00136B87 /* Dine_CookHall_Condensed.png in Resources */,
 				0376A90E1A24423D00605EC4 /* Blank-Text-box.png in Resources */,
+				17FD79431A2D315500136B87 /* Dine_CookHall_Expanded.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
