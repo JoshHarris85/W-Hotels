@@ -54,7 +54,7 @@
         {
             self.livingRoomBarExtended.hidden = false;
         }
-        
+        [self.dayOfTheDeadButton setImage:[UIImage imageNamed:@"Arrow-up-button.png"] forState:UIControlStateNormal];
         if(self.livingRoomBarExtended.hidden == false || self.dayOfTheDeadExtended.hidden == false)
         {
            self.dayOfTheDeadButton.imageView.image = [UIImage imageNamed:@"Arrow-up-button.png"];
@@ -62,6 +62,7 @@
     }
     else
     {
+        [self.dayOfTheDeadButton setImage:[UIImage imageNamed:@"Arrow-down-button.png"] forState:UIControlStateNormal];
         self.favoriteButton.hidden = false;
         self.favoriteButton2.hidden = false;
         self.dayOfTheDeadImage.hidden = false;
@@ -70,6 +71,7 @@
         self.uiBar.hidden = false;
         self.livingRoomBarExtended.hidden = true;
         self.dayOfTheDeadExtended.hidden = true;
+        self.livingRoomBarButton.imageView.image = [UIImage imageNamed:@"Arrow-down-button.png"];
     }
 }
 - (IBAction)profileButtonPushed:(id)sender {
