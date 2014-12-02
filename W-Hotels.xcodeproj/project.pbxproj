@@ -53,6 +53,11 @@
 		17FD793F1A2D314E00136B87 /* Dine_TheLivingRoom_Condensed.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FD793D1A2D314E00136B87 /* Dine_TheLivingRoom_Condensed.png */; };
 		17FD79431A2D315500136B87 /* Dine_CookHall_Expanded.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FD79411A2D315500136B87 /* Dine_CookHall_Expanded.png */; };
 		17FD79441A2D315500136B87 /* Dine_TheLivingRoom_Expanded.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FD79421A2D315500136B87 /* Dine_TheLivingRoom_Expanded.png */; };
+		580A3EB11A2E244100ADFDD6 /* GoPicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 580A3EB01A2E244100ADFDD6 /* GoPicture.jpg */; };
+		580A3EB31A2E247100ADFDD6 /* Go.png in Resources */ = {isa = PBXBuildFile; fileRef = 580A3EB21A2E247100ADFDD6 /* Go.png */; };
+		580A3EB51A2E258700ADFDD6 /* GoText.png in Resources */ = {isa = PBXBuildFile; fileRef = 580A3EB41A2E258700ADFDD6 /* GoText.png */; };
+		580A3EB71A2E25EC00ADFDD6 /* Call-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 580A3EB61A2E25EC00ADFDD6 /* Call-Button.png */; };
+		580A3EBA1A2E264C00ADFDD6 /* GoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 580A3EB91A2E264C00ADFDD6 /* GoController.m */; };
 		581CE03A1A1EDEF300BB6162 /* W-W-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 581CE0351A1EDEF300BB6162 /* W-W-green.png */; };
 		581CE03F1A1EE19C00BB6162 /* Dine-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 581CE03E1A1EE19C00BB6162 /* Dine-green.png */; };
 		581CE0451A1EE5F000BB6162 /* Induldge-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 581CE0441A1EE5F000BB6162 /* Induldge-green.png */; };
@@ -132,6 +137,12 @@
 		17FD793D1A2D314E00136B87 /* Dine_TheLivingRoom_Condensed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dine_TheLivingRoom_Condensed.png; sourceTree = "<group>"; };
 		17FD79411A2D315500136B87 /* Dine_CookHall_Expanded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dine_CookHall_Expanded.png; sourceTree = "<group>"; };
 		17FD79421A2D315500136B87 /* Dine_TheLivingRoom_Expanded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dine_TheLivingRoom_Expanded.png; sourceTree = "<group>"; };
+		580A3EB01A2E244100ADFDD6 /* GoPicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GoPicture.jpg; sourceTree = "<group>"; };
+		580A3EB21A2E247100ADFDD6 /* Go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Go.png; sourceTree = "<group>"; };
+		580A3EB41A2E258700ADFDD6 /* GoText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoText.png; sourceTree = "<group>"; };
+		580A3EB61A2E25EC00ADFDD6 /* Call-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Call-Button.png"; sourceTree = "<group>"; };
+		580A3EB81A2E264C00ADFDD6 /* GoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoController.h; sourceTree = "<group>"; };
+		580A3EB91A2E264C00ADFDD6 /* GoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoController.m; sourceTree = "<group>"; };
 		581CE0351A1EDEF300BB6162 /* W-W-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "W-W-green.png"; sourceTree = "<group>"; };
 		581CE03E1A1EE19C00BB6162 /* Dine-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dine-green.png"; sourceTree = "<group>"; };
 		581CE0441A1EE5F000BB6162 /* Induldge-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Induldge-green.png"; sourceTree = "<group>"; };
@@ -208,6 +219,8 @@
 				0327CD5B1A1A00160056EF22 /* AppDelegate.h */,
 				0327CD5C1A1A00160056EF22 /* AppDelegate.m */,
 				0327CD5E1A1A00160056EF22 /* Main.storyboard */,
+				580A3EB81A2E264C00ADFDD6 /* GoController.h */,
+				580A3EB91A2E264C00ADFDD6 /* GoController.m */,
 				172CD8D61A22E5C600D18A25 /* DineController.h */,
 				172CD8D71A22E5C600D18A25 /* DineController.m */,
 				172CD8DC1A22E9D700D18A25 /* WWController.h */,
@@ -345,9 +358,21 @@
 			path = "Dine Condensed/Dine Expanded";
 			sourceTree = "<group>";
 		};
+		580A3EAF1A2E243500ADFDD6 /* Go */ = {
+			isa = PBXGroup;
+			children = (
+				580A3EB61A2E25EC00ADFDD6 /* Call-Button.png */,
+				580A3EB41A2E258700ADFDD6 /* GoText.png */,
+				580A3EB21A2E247100ADFDD6 /* Go.png */,
+				580A3EB01A2E244100ADFDD6 /* GoPicture.jpg */,
+			);
+			name = Go;
+			sourceTree = "<group>";
+		};
 		588172B91A1ADF6E00E865E5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				580A3EAF1A2E243500ADFDD6 /* Go */,
 				0376A90F1A2468D600605EC4 /* Drink */,
 				0376A90A1A243EBF00605EC4 /* Profile */,
 				0327CD811A1A00240056EF22 /* SplashScreen */,
@@ -486,11 +511,15 @@
 				581CE03A1A1EDEF300BB6162 /* W-W-green.png in Resources */,
 				172CD8EC1A22ECB000D18A25 /* Call-W-W-button.png in Resources */,
 				588172C21A1AE04600E865E5 /* Go-white.png in Resources */,
+				580A3EB71A2E25EC00ADFDD6 /* Call-Button.png in Resources */,
+				580A3EB51A2E258700ADFDD6 /* GoText.png in Resources */,
 				581CE0491A1EE99D00BB6162 /* Drinks-green.png in Resources */,
 				0376A91B1A24782700605EC4 /* DrinksText_LivingRoomBar_Condensed.png in Resources */,
 				581CE03F1A1EE19C00BB6162 /* Dine-green.png in Resources */,
 				0376A9361A2D749700605EC4 /* Drinks_TheLivingRoomBar_Expanded.png in Resources */,
+				580A3EB31A2E247100ADFDD6 /* Go.png in Resources */,
 				0376A91F1A2478B100605EC4 /* Arrow-up-button.png in Resources */,
+				580A3EB11A2E244100ADFDD6 /* GoPicture.jpg in Resources */,
 				0376A9221A24795F00605EC4 /* Arrow-down-button.png in Resources */,
 				172CD8E11A22EA9900D18A25 /* WhateverWheneverPicture.jpg in Resources */,
 				0327CD571A1A00160056EF22 /* InfoPlist.strings in Resources */,
@@ -535,6 +564,7 @@
 				588172B81A1ADAC300E865E5 /* DrinkController.m in Sources */,
 				588172B51A1AD57A00E865E5 /* TabViewController.m in Sources */,
 				172CD8D81A22E5C600D18A25 /* DineController.m in Sources */,
+				580A3EBA1A2E264C00ADFDD6 /* GoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

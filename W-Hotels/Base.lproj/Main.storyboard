@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4md-sB-BJF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4md-sB-BJF">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -36,7 +37,7 @@
             </objects>
             <point key="canvasLocation" x="398" y="-11"/>
         </scene>
-        <!--Drink Controller - Drink-->
+        <!--Drink-->
         <scene sceneID="3IC-9V-VRl">
             <objects>
                 <viewController id="4SE-TM-bdj" customClass="DrinkController" sceneMemberID="viewController">
@@ -113,11 +114,9 @@
                             </button>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Drinks_DayoftheDead_Expanded.png" translatesAutoresizingMaskIntoConstraints="NO" id="br1-N2-gK4">
                                 <rect key="frame" x="7" y="183" width="288" height="340"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Drinks_TheLivingRoomBar_Expanded.png" translatesAutoresizingMaskIntoConstraints="NO" id="ruE-DE-0cq">
                                 <rect key="frame" x="11" y="202" width="267" height="301"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -204,7 +203,7 @@
             </objects>
             <point key="canvasLocation" x="1365" y="-6"/>
         </scene>
-        <!--Dine Controller - Dine-->
+        <!--Dine-->
         <scene sceneID="BV9-OL-R1u">
             <objects>
                 <viewController id="MFS-us-tPO" customClass="DineController" sceneMemberID="viewController">
@@ -286,7 +285,7 @@
             </objects>
             <point key="canvasLocation" x="1985" y="-172"/>
         </scene>
-        <!--Controller - What/Whenever-->
+        <!--What/Whenever-->
         <scene sceneID="wMx-r8-8Nf">
             <objects>
                 <viewController id="JSI-Hn-47N" customClass="WWController" sceneMemberID="viewController">
@@ -334,7 +333,7 @@
             </objects>
             <point key="canvasLocation" x="2007" y="629"/>
         </scene>
-        <!--View Controller - Indulge-->
+        <!--Indulge-->
         <scene sceneID="K6z-1X-Fah">
             <objects>
                 <viewController id="sMR-29-jhp" sceneMemberID="viewController">
@@ -353,17 +352,41 @@
             </objects>
             <point key="canvasLocation" x="2045" y="1377"/>
         </scene>
-        <!--View Controller - Go-->
+        <!--Go-->
         <scene sceneID="btQ-PH-kpM">
             <objects>
-                <viewController id="ddl-0k-cid" sceneMemberID="viewController">
+                <viewController id="ddl-0k-cid" customClass="GoController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZOr-XX-x7R"/>
                         <viewControllerLayoutGuide type="bottom" id="51O-sy-6Hi"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="agj-or-XAo">
+                    <view key="view" contentMode="scaleToFill" id="agj-or-XAo" customClass="MKMapView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GoPicture.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zMM-ba-lV7">
+                                <rect key="frame" x="-2" y="-20" width="320" height="531"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Go.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rvx-3c-SUW">
+                                <rect key="frame" x="-2" y="150" width="58" height="30"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GoText.png" translatesAutoresizingMaskIntoConstraints="NO" id="9rj-pr-Q9p">
+                                <rect key="frame" x="0.0" y="183" width="325" height="176"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2l-M3-6jd">
+                                <rect key="frame" x="18" y="357" width="288" height="44"/>
+                                <state key="normal" title="Button" image="Call-Button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="callConcierge:" destination="ddl-0k-cid" eventType="touchUpInside" id="u9E-1e-hRF"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Small-W.png" translatesAutoresizingMaskIntoConstraints="NO" id="ixt-yl-xVY">
+                                <rect key="frame" x="262" y="135" width="44" height="45"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Go" image="Go-green.png" id="km6-b0-pwR"/>
@@ -395,6 +418,7 @@
         <image name="Arrow-down-button.png" width="37" height="37"/>
         <image name="Background-transparent.png" width="641" height="715"/>
         <image name="Blank-Text-box.png" width="523" height="88"/>
+        <image name="Call-Button.png" width="522" height="88"/>
         <image name="Call-W-W-button.png" width="522" height="88"/>
         <image name="Confimation-button.png" width="523" height="88"/>
         <image name="Dine-green.png" width="16" height="32"/>
@@ -410,6 +434,9 @@
         <image name="Drinks_TheLivingRoomBar_Condensed.png" width="2060" height="1077"/>
         <image name="Drinks_TheLivingRoomBar_Expanded.png" width="2060" height="2762"/>
         <image name="Go-green.png" width="31" height="32"/>
+        <image name="Go.png" width="74" height="37"/>
+        <image name="GoPicture.jpg" width="640" height="938"/>
+        <image name="GoText.png" width="2032" height="1106"/>
         <image name="Induldge-green.png" width="24" height="32"/>
         <image name="Line-Space.png" width="577" height="5"/>
         <image name="Profile button.png" width="40" height="40"/>
