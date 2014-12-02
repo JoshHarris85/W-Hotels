@@ -48,13 +48,12 @@
         if(sender == self.blissButton)
         {
             self.blissSpaExtended.hidden=false;
-            self.fitButton.hidden=true;
         }
         else
         {
             self.fitExtended.hidden=false;
-            self.blissButton.hidden=true;
         }
+        self.fitButton.hidden=true;
         [self.fitButton setImage:[UIImage imageNamed:@"Arrow-up-button.png"] forState:UIControlStateNormal];
         [self.blissButton setImage:[UIImage imageNamed:@"Arrow-up-button.png"] forState:UIControlStateNormal];
     }
