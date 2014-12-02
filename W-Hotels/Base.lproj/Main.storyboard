@@ -358,6 +358,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IndulgePicture.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Er9-cU-is9">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background-transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="6eQ-Zc-ZZr">
+                                <rect key="frame" x="0.0" y="259" width="320" height="260"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IndulgePage_Title.png" translatesAutoresizingMaskIntoConstraints="NO" id="dGB-0g-AMD">
                                 <rect key="frame" x="16" y="228" width="240" height="37"/>
                             </imageView>
@@ -445,9 +448,11 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Go.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rvx-3c-SUW">
                                 <rect key="frame" x="-2" y="235" width="58" height="30"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background-transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="PRc-dA-cwg">
+                                <rect key="frame" x="-2" y="297" width="320" height="214"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GoText.png" translatesAutoresizingMaskIntoConstraints="NO" id="9rj-pr-Q9p">
                                 <rect key="frame" x="0.0" y="273" width="325" height="176"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2l-M3-6jd">
                                 <rect key="frame" x="18" y="457" width="288" height="54"/>
