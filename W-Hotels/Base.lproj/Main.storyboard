@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4md-sB-BJF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4md-sB-BJF">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -36,7 +37,7 @@
             </objects>
             <point key="canvasLocation" x="398" y="-11"/>
         </scene>
-        <!--Drink Controller - Drink-->
+        <!--Drink-->
         <scene sceneID="3IC-9V-VRl">
             <objects>
                 <viewController id="4SE-TM-bdj" customClass="DrinkController" sceneMemberID="viewController">
@@ -113,11 +114,9 @@
                             </button>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Drinks_DayoftheDead_Expanded.png" translatesAutoresizingMaskIntoConstraints="NO" id="br1-N2-gK4">
                                 <rect key="frame" x="7" y="183" width="288" height="340"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Drinks_TheLivingRoomBar_Expanded.png" translatesAutoresizingMaskIntoConstraints="NO" id="ruE-DE-0cq">
                                 <rect key="frame" x="11" y="202" width="267" height="301"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -204,7 +203,7 @@
             </objects>
             <point key="canvasLocation" x="1365" y="-6"/>
         </scene>
-        <!--Dine Controller - Dine-->
+        <!--Dine-->
         <scene sceneID="BV9-OL-R1u">
             <objects>
                 <viewController id="MFS-us-tPO" customClass="DineController" sceneMemberID="viewController">
@@ -273,6 +272,9 @@
                                     <action selector="RewardClick:" destination="MFS-us-tPO" eventType="touchUpInside" id="t80-3h-9Sb"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rgm-HU-5E5">
+                                <rect key="frame" x="16" y="181" width="254" height="330"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -281,6 +283,7 @@
                         <outlet property="CookHall_Cond" destination="0ob-HZ-WOB" id="hzo-jz-Qwa"/>
                         <outlet property="DropDown1" destination="YJJ-Hi-etN" id="IFk-i5-B08"/>
                         <outlet property="DropDown2" destination="jn2-ho-EOL" id="441-fG-1Tk"/>
+                        <outlet property="ExpandedImage" destination="Rgm-HU-5E5" id="ri1-uD-aYu"/>
                         <outlet property="Favorite1" destination="Tyh-Aq-BTs" id="fbl-TY-QrM"/>
                         <outlet property="Favorite2" destination="61O-Ya-fbW" id="dDa-Uf-PJ4"/>
                         <outlet property="LivingRoom_Cond" destination="Spw-8l-VFO" id="bK8-Im-yb9"/>
@@ -292,7 +295,7 @@
             </objects>
             <point key="canvasLocation" x="1985" y="-172"/>
         </scene>
-        <!--Controller - What/Whenever-->
+        <!--What/Whenever-->
         <scene sceneID="wMx-r8-8Nf">
             <objects>
                 <viewController id="JSI-Hn-47N" customClass="WWController" sceneMemberID="viewController">
@@ -340,7 +343,7 @@
             </objects>
             <point key="canvasLocation" x="2007" y="629"/>
         </scene>
-        <!--View Controller - Indulge-->
+        <!--Indulge-->
         <scene sceneID="K6z-1X-Fah">
             <objects>
                 <viewController id="sMR-29-jhp" sceneMemberID="viewController">
@@ -359,7 +362,7 @@
             </objects>
             <point key="canvasLocation" x="2045" y="1377"/>
         </scene>
-        <!--View Controller - Go-->
+        <!--Go-->
         <scene sceneID="btQ-PH-kpM">
             <objects>
                 <viewController id="ddl-0k-cid" sceneMemberID="viewController">
