@@ -26,5 +26,6 @@
 
 
 - (IBAction)DropDownClicked:(id)sender;
+- (IBAction)RewardClick:(id)sender;
 
 @end

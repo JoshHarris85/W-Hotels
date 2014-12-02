@@ -32,7 +32,8 @@
         self.flag = 1 - (self.flag%2);
     else if(sender == self.DropDown2)
         self.flag = self.flag < 2? 2: 0;
-    
+    else
+        return;
     
     NSLog(@"%d",self.flag);
     
@@ -72,6 +73,36 @@
         
         self.flag = 2;
     }
+    
+}
+
+- (IBAction)RewardClick:(id)sender {
+    NSURL *url;
+    
+    if(sender == self.Favorite1)
+    {
+        NSLog(@"God Dang Things");
+        url = [NSURL URLWithString:@"fb://profile/<id>"];
+        if([[UIApplication sharedApplication] canOpenURL:url])
+            [[UIApplication sharedApplication] openURL:url];
+        else
+        {
+            url = [NSURL URLWithString:@"https://www.facebook.com/WHotelsTest"];
+            [[UIApplication sharedApplication] openURL:url];
+        }
+    }
+    else if (sender == self.Favorite2)
+    {
+        url = [NSURL URLWithString:@"fb://profile/<id>"];
+        if([[UIApplication sharedApplication] canOpenURL:url])
+            [[UIApplication sharedApplication] openURL:url];
+        else
+        {
+            url = [NSURL URLWithString:@"https://www.facebook.com/WHotelsTest"];
+            [[UIApplication sharedApplication] openURL:url];
+        }
+    }
+    
     
 }
 @end

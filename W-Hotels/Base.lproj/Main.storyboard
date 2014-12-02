@@ -233,12 +233,18 @@
                                 <state key="normal" image="Rewards-button.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="RewardClick:" destination="MFS-us-tPO" eventType="touchUpInside" id="oWO-fY-5ZX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tyh-Aq-BTs" userLabel="Favorite1">
                                 <rect key="frame" x="278" y="283" width="26" height="26"/>
                                 <state key="normal" image="Rewards-button.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="RewardClick:" destination="MFS-us-tPO" eventType="touchUpInside" id="t80-3h-9Sb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
