@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface DineController : UIViewController
-@property BOOL isCondensened;
+@property int flag;
 @property (strong, nonatomic) IBOutlet UIImageView *backgroundImage;
 
 //Buttons
@@ -20,10 +20,7 @@
 
 //Images
 @property (strong, nonatomic) IBOutlet UIImageView *CookHall_Cond;
-@property (strong, nonatomic) IBOutlet UIImageView *CookHall_Expan;
 @property (strong, nonatomic) IBOutlet UIImageView *LivingRoom_Cond;
-@property (strong, nonatomic) IBOutlet UIImageView *LivingRoomExan;
-@property (strong, nonatomic) IBOutlet UIImageView *Scrool2;
 @property (strong, nonatomic) IBOutlet UIImageView *Scroll1;
 
 
