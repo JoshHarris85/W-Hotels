@@ -361,6 +361,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background-transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="6eQ-Zc-ZZr">
                                 <rect key="frame" x="0.0" y="259" width="320" height="260"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vX7-KK-37i">
+                                <rect key="frame" x="0.0" y="0.0" width="30" height="27"/>
+                                <state key="normal" image="Profile button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToProfile:" destination="sMR-29-jhp" eventType="touchUpInside" id="nUV-fj-kHA"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IndulgePage_Title.png" translatesAutoresizingMaskIntoConstraints="NO" id="dGB-0g-AMD">
                                 <rect key="frame" x="16" y="228" width="240" height="37"/>
                             </imageView>
@@ -428,7 +437,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Co-Pe-AmY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2052" y="1377"/>
+            <point key="canvasLocation" x="2055" y="1377"/>
         </scene>
         <!--Go-->
         <scene sceneID="btQ-PH-kpM">
@@ -446,13 +455,10 @@
                                 <rect key="frame" x="-2" y="-20" width="320" height="531"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Go.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rvx-3c-SUW">
-                                <rect key="frame" x="-2" y="235" width="58" height="30"/>
+                                <rect key="frame" x="0.0" y="219" width="58" height="30"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background-transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="PRc-dA-cwg">
-                                <rect key="frame" x="-2" y="297" width="320" height="214"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GoText.png" translatesAutoresizingMaskIntoConstraints="NO" id="9rj-pr-Q9p">
-                                <rect key="frame" x="0.0" y="273" width="325" height="176"/>
+                                <rect key="frame" x="-2" y="252" width="320" height="259"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2l-M3-6jd">
                                 <rect key="frame" x="18" y="457" width="288" height="54"/>
@@ -464,7 +470,10 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Small-W.png" translatesAutoresizingMaskIntoConstraints="NO" id="ixt-yl-xVY">
-                                <rect key="frame" x="260" y="220" width="44" height="45"/>
+                                <rect key="frame" x="260" y="204" width="44" height="45"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GoText.png" translatesAutoresizingMaskIntoConstraints="NO" id="9rj-pr-Q9p">
+                                <rect key="frame" x="0.0" y="257" width="325" height="176"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>

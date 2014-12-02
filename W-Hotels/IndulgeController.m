@@ -73,5 +73,14 @@
         [self.blissButton setImage:[UIImage imageNamed:@"Arrow-down-button.png"] forState:UIControlStateNormal];
     }
 }
+- (IBAction)goToProfile:(id)sender
+{
+    NSURL *url = [ [ NSURL alloc ] initWithString: @"https://www.starwoodhotels.com/whotels/account/sign_in.html" ];
+    [[UIApplication sharedApplication] openURL:url];
+}
+
+- (BOOL)prefersStatusBarHidden{
+    return YES;
+}
 
 @end
