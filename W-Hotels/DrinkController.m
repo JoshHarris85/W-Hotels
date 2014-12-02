@@ -9,6 +9,17 @@
 #import "DrinkController.h"
 
 @interface DrinkController ()
+@property (weak, nonatomic) IBOutlet UIButton *favoriteButton2;
+@property (weak, nonatomic) IBOutlet UIButton *favoriteButton;
+@property (weak, nonatomic) IBOutlet UIButton *dayOfTheDeadButton;
+@property (weak, nonatomic) IBOutlet UIButton *livingRoomBarButton;
+@property (weak, nonatomic) IBOutlet UIImageView *dayOfTheDeadImage;
+@property (weak, nonatomic) IBOutlet UIImageView *livingRoomBarImage;
+@property (weak, nonatomic) IBOutlet UIImageView *uiBar;
+@property (weak, nonatomic) IBOutlet UIImageView *dayOfTheDeadExtended;
+@property (weak, nonatomic) IBOutlet UIImageView *livingRoomBarExtended;
+@property BOOL isExtended;
+
 @end
 
 @implementation DrinkController
@@ -25,11 +36,53 @@
 - (BOOL)prefersStatusBarHidden{
     return YES;
 }
+- (IBAction)expandButtonPressed:(id)sender {
+    self.isExtended = !self.isExtended;
+    if(self.isExtended)
+    {
+        self.favoriteButton.hidden = true;
+        self.favoriteButton2.hidden = true;
+        self.dayOfTheDeadImage.hidden = true;
+        self.livingRoomBarImage.hidden = true;
+        self.livingRoomBarButton.hidden = true;
+        self.uiBar.hidden = true;
+        if(sender == self.dayOfTheDeadButton)
+        {
+            self.dayOfTheDeadExtended.hidden = false;
+        }
+        else
+        {
+            self.livingRoomBarExtended.hidden = false;
+        }
+        
+        if(self.livingRoomBarExtended.hidden == false || self.dayOfTheDeadExtended.hidden == false)
+        {
+           self.dayOfTheDeadButton.imageView.image = [UIImage imageNamed:@"Arrow-up-button.png"];
+        }
+    }
+    else
+    {
+        self.favoriteButton.hidden = false;
+        self.favoriteButton2.hidden = false;
+        self.dayOfTheDeadImage.hidden = false;
+        self.livingRoomBarImage.hidden = false;
+        self.livingRoomBarButton.hidden = false;
+        self.uiBar.hidden = false;
+        self.livingRoomBarExtended.hidden = true;
+        self.dayOfTheDeadExtended.hidden = true;
+    }
+}
+- (IBAction)profileButtonPushed:(id)sender {
+    NSURL *url = [ [ NSURL alloc ] initWithString: @"https://www.starwoodhotels.com/whotels/account/sign_in.html" ];
+    
+    [[UIApplication sharedApplication] openURL:url];
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.isExtended = false;
 }
 
 - (void)didReceiveMemoryWarning

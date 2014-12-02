@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4md-sB-BJF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4md-sB-BJF">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -37,7 +36,7 @@
             </objects>
             <point key="canvasLocation" x="398" y="-11"/>
         </scene>
-        <!--Drink-->
+        <!--Drink Controller - Drink-->
         <scene sceneID="3IC-9V-VRl">
             <objects>
                 <viewController id="4SE-TM-bdj" customClass="DrinkController" sceneMemberID="viewController">
@@ -53,10 +52,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="432"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background-transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="NeP-L9-FQ8">
-                                <rect key="frame" x="0.0" y="174" width="320" height="330"/>
+                                <rect key="frame" x="0.0" y="174" width="320" height="345"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DrinksText_DayoftheDead_Condensed.png" translatesAutoresizingMaskIntoConstraints="NO" id="VrL-tj-uUe">
-                                <rect key="frame" x="10" y="184" width="250" height="109"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Drinks_DayoftheDead_Condensed.png" translatesAutoresizingMaskIntoConstraints="NO" id="VrL-tj-uUe">
+                                <rect key="frame" x="10" y="202" width="250" height="131"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Drinks.png" translatesAutoresizingMaskIntoConstraints="NO" id="q4Q-Lg-zet">
                                 <rect key="frame" x="15" y="135" width="90" height="31"/>
@@ -65,10 +64,7 @@
                                 <rect key="frame" x="255" y="126" width="45" height="40"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line-Space.png" translatesAutoresizingMaskIntoConstraints="NO" id="rYG-Vu-HK7">
-                                <rect key="frame" x="20" y="291" width="280" height="6"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line-Space.png" translatesAutoresizingMaskIntoConstraints="NO" id="t8d-Zm-k9V">
-                                <rect key="frame" x="20" y="413" width="280" height="7"/>
+                                <rect key="frame" x="10" y="344" width="280" height="6"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjt-0o-vg6">
                                 <rect key="frame" x="16" y="6" width="46" height="30"/>
@@ -76,26 +72,38 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DrinksText_LivingRoomBar_Condensed.png" translatesAutoresizingMaskIntoConstraints="NO" id="uXZ-eu-ZIf">
-                                <rect key="frame" x="10" y="301" width="268" height="119"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Drinks_TheLivingRoomBar_Condensed.png" translatesAutoresizingMaskIntoConstraints="NO" id="uXZ-eu-ZIf">
+                                <rect key="frame" x="10" y="366" width="268" height="142"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fr0-Q1-c1u">
-                                <rect key="frame" x="277" y="262" width="24" height="21"/>
+                                <rect key="frame" x="286" y="312" width="24" height="21"/>
+                                <state key="normal" image="Rewards-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEv-D4-ido">
+                                <rect key="frame" x="286" y="482" width="24" height="21"/>
                                 <state key="normal" image="Rewards-button.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7d-5C-7CF">
-                                <rect key="frame" x="277" y="184" width="23" height="17"/>
+                                <rect key="frame" x="286" y="202" width="23" height="17"/>
                                 <state key="normal" image="Arrow-down-button.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="expandButtonPressed:" destination="4SE-TM-bdj" eventType="touchUpInside" id="NGp-kD-jvv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTx-it-w6n">
-                                <rect key="frame" x="277" y="305" width="23" height="17"/>
+                                <rect key="frame" x="286" y="366" width="23" height="17"/>
                                 <state key="normal" image="Arrow-down-button.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="expandButtonPressed:" destination="4SE-TM-bdj" eventType="touchUpInside" id="67W-UD-13p"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9LV-NW-gxm">
                                 <rect key="frame" x="0.0" y="0.0" width="30" height="27"/>
@@ -103,11 +111,30 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Drinks_DayoftheDead_Expanded.png" translatesAutoresizingMaskIntoConstraints="NO" id="br1-N2-gK4">
+                                <rect key="frame" x="7" y="183" width="288" height="340"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Drinks_TheLivingRoomBar_Expanded.png" translatesAutoresizingMaskIntoConstraints="NO" id="ruE-DE-0cq">
+                                <rect key="frame" x="11" y="202" width="267" height="301"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Drink" image="Drinks-green.png" id="0a4-XS-Dtg"/>
                     <navigationItem key="navigationItem" id="Ob6-fI-OVk"/>
+                    <connections>
+                        <outlet property="dayOfTheDeadButton" destination="E7d-5C-7CF" id="Iv8-QC-CKy"/>
+                        <outlet property="dayOfTheDeadExtended" destination="br1-N2-gK4" id="zxa-dd-fvk"/>
+                        <outlet property="dayOfTheDeadImage" destination="VrL-tj-uUe" id="YMS-2U-zjr"/>
+                        <outlet property="favoriteButton" destination="Fr0-Q1-c1u" id="fLa-4o-ham"/>
+                        <outlet property="favoriteButton2" destination="bEv-D4-ido" id="a6y-8j-kFD"/>
+                        <outlet property="livingRoomBarButton" destination="XTx-it-w6n" id="tLS-cR-azc"/>
+                        <outlet property="livingRoomBarExtended" destination="ruE-DE-0cq" id="E14-X0-y8I"/>
+                        <outlet property="livingRoomBarImage" destination="uXZ-eu-ZIf" id="T4m-3s-Beo"/>
+                        <outlet property="uiBar" destination="rYG-Vu-HK7" id="F1C-bO-DUO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iRy-va-hdQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -177,7 +204,7 @@
             </objects>
             <point key="canvasLocation" x="1365" y="-6"/>
         </scene>
-        <!--Dine-->
+        <!--Dine Controller - Dine-->
         <scene sceneID="BV9-OL-R1u">
             <objects>
                 <viewController id="MFS-us-tPO" customClass="DineController" sceneMemberID="viewController">
@@ -259,7 +286,7 @@
             </objects>
             <point key="canvasLocation" x="1985" y="-172"/>
         </scene>
-        <!--What/Whenever-->
+        <!--Controller - What/Whenever-->
         <scene sceneID="wMx-r8-8Nf">
             <objects>
                 <viewController id="JSI-Hn-47N" customClass="WWController" sceneMemberID="viewController">
@@ -307,7 +334,7 @@
             </objects>
             <point key="canvasLocation" x="2007" y="629"/>
         </scene>
-        <!--Indulge-->
+        <!--View Controller - Indulge-->
         <scene sceneID="K6z-1X-Fah">
             <objects>
                 <viewController id="sMR-29-jhp" sceneMemberID="viewController">
@@ -326,7 +353,7 @@
             </objects>
             <point key="canvasLocation" x="2045" y="1377"/>
         </scene>
-        <!--Go-->
+        <!--View Controller - Go-->
         <scene sceneID="btQ-PH-kpM">
             <objects>
                 <viewController id="ddl-0k-cid" sceneMemberID="viewController">
@@ -378,8 +405,10 @@
         <image name="Drinks-green.png" width="20" height="32"/>
         <image name="Drinks.png" width="185" height="38"/>
         <image name="DrinksPicture.jpg" width="640" height="926"/>
-        <image name="DrinksText_DayoftheDead_Condensed.png" width="488" height="205"/>
-        <image name="DrinksText_LivingRoomBar_Condensed.png" width="2032" height="1142"/>
+        <image name="Drinks_DayoftheDead_Condensed.png" width="2036" height="847"/>
+        <image name="Drinks_DayoftheDead_Expanded.png" width="2047" height="3878"/>
+        <image name="Drinks_TheLivingRoomBar_Condensed.png" width="2060" height="1077"/>
+        <image name="Drinks_TheLivingRoomBar_Expanded.png" width="2060" height="2762"/>
         <image name="Go-green.png" width="31" height="32"/>
         <image name="Induldge-green.png" width="24" height="32"/>
         <image name="Line-Space.png" width="577" height="5"/>

@@ -35,6 +35,10 @@
 		0376A91D1A2478A100605EC4 /* Rewards-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A91C1A2478A100605EC4 /* Rewards-button.png */; };
 		0376A91F1A2478B100605EC4 /* Arrow-up-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A91E1A2478B100605EC4 /* Arrow-up-button.png */; };
 		0376A9221A24795F00605EC4 /* Arrow-down-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A9211A24795F00605EC4 /* Arrow-down-button.png */; };
+		0376A9351A2D749700605EC4 /* Drinks_DayoftheDead_Expanded.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A9331A2D749700605EC4 /* Drinks_DayoftheDead_Expanded.png */; };
+		0376A9361A2D749700605EC4 /* Drinks_TheLivingRoomBar_Expanded.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A9341A2D749700605EC4 /* Drinks_TheLivingRoomBar_Expanded.png */; };
+		0376A9391A2D74A200605EC4 /* Drinks_DayoftheDead_Condensed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A9371A2D74A200605EC4 /* Drinks_DayoftheDead_Condensed.png */; };
+		0376A93A1A2D74A200605EC4 /* Drinks_TheLivingRoomBar_Condensed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0376A9381A2D74A200605EC4 /* Drinks_TheLivingRoomBar_Condensed.png */; };
 		172CD8D81A22E5C600D18A25 /* DineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CD8D71A22E5C600D18A25 /* DineController.m */; };
 		172CD8DB1A22E64E00D18A25 /* DinePicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 172CD8DA1A22E64E00D18A25 /* DinePicture.jpg */; };
 		172CD8DE1A22E9D700D18A25 /* WWController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CD8DD1A22E9D700D18A25 /* WWController.m */; };
@@ -108,6 +112,10 @@
 		0376A91C1A2478A100605EC4 /* Rewards-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rewards-button.png"; sourceTree = "<group>"; };
 		0376A91E1A2478B100605EC4 /* Arrow-up-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-up-button.png"; sourceTree = "<group>"; };
 		0376A9211A24795F00605EC4 /* Arrow-down-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-down-button.png"; sourceTree = "<group>"; };
+		0376A9331A2D749700605EC4 /* Drinks_DayoftheDead_Expanded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drinks_DayoftheDead_Expanded.png; sourceTree = "<group>"; };
+		0376A9341A2D749700605EC4 /* Drinks_TheLivingRoomBar_Expanded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drinks_TheLivingRoomBar_Expanded.png; sourceTree = "<group>"; };
+		0376A9371A2D74A200605EC4 /* Drinks_DayoftheDead_Condensed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drinks_DayoftheDead_Condensed.png; sourceTree = "<group>"; };
+		0376A9381A2D74A200605EC4 /* Drinks_TheLivingRoomBar_Condensed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drinks_TheLivingRoomBar_Condensed.png; sourceTree = "<group>"; };
 		172CD8D61A22E5C600D18A25 /* DineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DineController.h; sourceTree = "<group>"; };
 		172CD8D71A22E5C600D18A25 /* DineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DineController.m; sourceTree = "<group>"; };
 		172CD8DA1A22E64E00D18A25 /* DinePicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DinePicture.jpg; sourceTree = "<group>"; };
@@ -276,6 +284,10 @@
 				0376A9211A24795F00605EC4 /* Arrow-down-button.png */,
 				0376A9121A246CFC00605EC4 /* Drinks.png */,
 				0376A91C1A2478A100605EC4 /* Rewards-button.png */,
+				0376A9331A2D749700605EC4 /* Drinks_DayoftheDead_Expanded.png */,
+				0376A9341A2D749700605EC4 /* Drinks_TheLivingRoomBar_Expanded.png */,
+				0376A9371A2D74A200605EC4 /* Drinks_DayoftheDead_Condensed.png */,
+				0376A9381A2D74A200605EC4 /* Drinks_TheLivingRoomBar_Condensed.png */,
 				0376A9161A246F5800605EC4 /* Profile button.png */,
 				0376A9101A2468E300605EC4 /* DrinksPicture.jpg */,
 			);
@@ -459,6 +471,7 @@
 				0376A91A1A24782700605EC4 /* DrinksText_DayoftheDead_Condensed.png in Resources */,
 				172CD8EA1A22EC5500D18A25 /* WhateverWheneverText.png in Resources */,
 				0376A9131A246CFC00605EC4 /* Drinks.png in Resources */,
+				0376A9391A2D74A200605EC4 /* Drinks_DayoftheDead_Condensed.png in Resources */,
 				0327CD651A1A00160056EF22 /* Images.xcassets in Resources */,
 				0376A9111A2468E300605EC4 /* DrinksPicture.jpg in Resources */,
 				0376A91D1A2478A100605EC4 /* Rewards-button.png in Resources */,
@@ -476,6 +489,7 @@
 				581CE0491A1EE99D00BB6162 /* Drinks-green.png in Resources */,
 				0376A91B1A24782700605EC4 /* DrinksText_LivingRoomBar_Condensed.png in Resources */,
 				581CE03F1A1EE19C00BB6162 /* Dine-green.png in Resources */,
+				0376A9361A2D749700605EC4 /* Drinks_TheLivingRoomBar_Expanded.png in Resources */,
 				0376A91F1A2478B100605EC4 /* Arrow-up-button.png in Resources */,
 				0376A9221A24795F00605EC4 /* Arrow-down-button.png in Resources */,
 				172CD8E11A22EA9900D18A25 /* WhateverWheneverPicture.jpg in Resources */,
@@ -487,8 +501,10 @@
 				588172C11A1AE04600E865E5 /* Drinks-white.png in Resources */,
 				588172C71A1AE11000E865E5 /* Dine-white.png in Resources */,
 				0327CD841A1A00410056EF22 /* W-Center-logo.png in Resources */,
+				0376A93A1A2D74A200605EC4 /* Drinks_TheLivingRoomBar_Condensed.png in Resources */,
 				0376A9171A246F5800605EC4 /* Profile button.png in Resources */,
 				581CE04D1A1EEB6E00BB6162 /* Go-green.png in Resources */,
+				0376A9351A2D749700605EC4 /* Drinks_DayoftheDead_Expanded.png in Resources */,
 				581CE0451A1EE5F000BB6162 /* Induldge-green.png in Resources */,
 				17FD793E1A2D314E00136B87 /* Dine_CookHall_Condensed.png in Resources */,
 				0376A90E1A24423D00605EC4 /* Blank-Text-box.png in Resources */,
