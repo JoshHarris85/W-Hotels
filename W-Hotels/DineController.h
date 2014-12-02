@@ -22,9 +22,11 @@
 @property (strong, nonatomic) IBOutlet UIImageView *CookHall_Cond;
 @property (strong, nonatomic) IBOutlet UIImageView *LivingRoom_Cond;
 @property (strong, nonatomic) IBOutlet UIImageView *Scroll1;
+@property (strong, nonatomic) IBOutlet UIImageView *ExpandedImage;
 
 
 
 - (IBAction)DropDownClicked:(id)sender;
+- (IBAction)RewardClick:(id)sender;
 
 @end

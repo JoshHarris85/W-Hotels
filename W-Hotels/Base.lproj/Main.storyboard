@@ -259,13 +259,22 @@
                                 <state key="normal" image="Rewards-button.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="RewardClick:" destination="MFS-us-tPO" eventType="touchUpInside" id="oWO-fY-5ZX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tyh-Aq-BTs" userLabel="Favorite1">
                                 <rect key="frame" x="278" y="283" width="26" height="26"/>
                                 <state key="normal" image="Rewards-button.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="RewardClick:" destination="MFS-us-tPO" eventType="touchUpInside" id="t80-3h-9Sb"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rgm-HU-5E5">
+                                <rect key="frame" x="16" y="181" width="254" height="330"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -274,6 +283,7 @@
                         <outlet property="CookHall_Cond" destination="0ob-HZ-WOB" id="hzo-jz-Qwa"/>
                         <outlet property="DropDown1" destination="YJJ-Hi-etN" id="IFk-i5-B08"/>
                         <outlet property="DropDown2" destination="jn2-ho-EOL" id="441-fG-1Tk"/>
+                        <outlet property="ExpandedImage" destination="Rgm-HU-5E5" id="ri1-uD-aYu"/>
                         <outlet property="Favorite1" destination="Tyh-Aq-BTs" id="fbl-TY-QrM"/>
                         <outlet property="Favorite2" destination="61O-Ya-fbW" id="dDa-Uf-PJ4"/>
                         <outlet property="LivingRoom_Cond" destination="Spw-8l-VFO" id="bK8-Im-yb9"/>
