@@ -336,7 +336,7 @@
         <!--Indulge-->
         <scene sceneID="K6z-1X-Fah">
             <objects>
-                <viewController id="sMR-29-jhp" sceneMemberID="viewController">
+                <viewController id="sMR-29-jhp" customClass="IndulgeController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="awB-5P-TN1"/>
                         <viewControllerLayoutGuide type="bottom" id="kIn-OH-VAr"/>
@@ -344,13 +344,78 @@
                     <view key="view" contentMode="scaleToFill" id="G99-Jw-bGz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IndulgePicture.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Er9-cU-is9">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IndulgePage_Title.png" translatesAutoresizingMaskIntoConstraints="NO" id="dGB-0g-AMD">
+                                <rect key="frame" x="16" y="110" width="240" height="36"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Indulge_BlissSpa_Condensed.png" translatesAutoresizingMaskIntoConstraints="NO" id="nkL-IT-hWD">
+                                <rect key="frame" x="16" y="163" width="240" height="127"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line-Space.png" translatesAutoresizingMaskIntoConstraints="NO" id="F7S-hc-dYF">
+                                <rect key="frame" x="16" y="298" width="261" height="6"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Indulge_FitGym_Condensed.png" translatesAutoresizingMaskIntoConstraints="NO" id="FO6-se-mgv">
+                                <rect key="frame" x="16" y="312" width="240" height="119"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQW-sD-M29">
+                                <rect key="frame" x="279" y="163" width="31" height="30"/>
+                                <state key="normal" image="Arrow-down-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="expand:" destination="sMR-29-jhp" eventType="touchUpInside" id="sNM-FN-sIo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaK-zu-MIW">
+                                <rect key="frame" x="279" y="259" width="35" height="31"/>
+                                <state key="normal" image="Rewards-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Urg-qz-kDE">
+                                <rect key="frame" x="279" y="312" width="31" height="31"/>
+                                <state key="normal" image="Arrow-down-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="expand:" destination="sMR-29-jhp" eventType="touchUpInside" id="zQq-5n-2t4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DB6-TP-fad">
+                                <rect key="frame" x="279" y="400" width="35" height="31"/>
+                                <state key="normal" image="Rewards-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Indulge_BlissSpa_Expanded.png" translatesAutoresizingMaskIntoConstraints="NO" id="DbM-VF-jdr">
+                                <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Indulge_FitGym_Expanded.png" translatesAutoresizingMaskIntoConstraints="NO" id="jE7-Qi-9ep">
+                                <rect key="frame" x="5" y="64" width="320" height="269"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Indulge" image="Induldge-green.png" id="mUw-vi-S4a"/>
+                    <connections>
+                        <outlet property="blissButton" destination="iQW-sD-M29" id="mQn-mf-wN4"/>
+                        <outlet property="blissFavorite" destination="WaK-zu-MIW" id="Bl3-sw-arK"/>
+                        <outlet property="blissSpaExtended" destination="DbM-VF-jdr" id="YUF-k2-HVY"/>
+                        <outlet property="blissText" destination="nkL-IT-hWD" id="qpP-Ca-42p"/>
+                        <outlet property="dividerImage" destination="F7S-hc-dYF" id="Cly-8P-e4j"/>
+                        <outlet property="fitButton" destination="Urg-qz-kDE" id="3qP-x1-okd"/>
+                        <outlet property="fitExtended" destination="jE7-Qi-9ep" id="Eee-fb-hDE"/>
+                        <outlet property="fitFavorite" destination="DB6-TP-fad" id="sYV-gN-Y3d"/>
+                        <outlet property="fitText" destination="FO6-se-mgv" id="r7j-9f-EAz"/>
+                        <outlet property="titleImage" destination="dGB-0g-AMD" id="b6F-TL-dcR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Co-Pe-AmY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2045" y="1377"/>
+            <point key="canvasLocation" x="2052" y="1377"/>
         </scene>
         <!--Go-->
         <scene sceneID="btQ-PH-kpM">
@@ -438,6 +503,12 @@
         <image name="GoPicture.jpg" width="640" height="938"/>
         <image name="GoText.png" width="2032" height="1106"/>
         <image name="Induldge-green.png" width="24" height="32"/>
+        <image name="IndulgePage_Title.png" width="2111" height="224"/>
+        <image name="IndulgePicture.jpg" width="640" height="881"/>
+        <image name="Indulge_BlissSpa_Condensed.png" width="2030" height="1050"/>
+        <image name="Indulge_BlissSpa_Expanded.png" width="2045" height="4544"/>
+        <image name="Indulge_FitGym_Condensed.png" width="2030" height="989"/>
+        <image name="Indulge_FitGym_Expanded.png" width="2056" height="1957"/>
         <image name="Line-Space.png" width="577" height="5"/>
         <image name="Profile button.png" width="40" height="40"/>
         <image name="Rewards-button.png" width="42" height="41"/>

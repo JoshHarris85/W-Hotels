@@ -63,6 +63,13 @@
 		581CE0451A1EE5F000BB6162 /* Induldge-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 581CE0441A1EE5F000BB6162 /* Induldge-green.png */; };
 		581CE0491A1EE99D00BB6162 /* Drinks-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 581CE0481A1EE99D00BB6162 /* Drinks-green.png */; };
 		581CE04D1A1EEB6E00BB6162 /* Go-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 581CE04C1A1EEB6E00BB6162 /* Go-green.png */; };
+		58607C761A2E5212004ED4A0 /* Indulge_BlissSpa_Condensed.png in Resources */ = {isa = PBXBuildFile; fileRef = 58607C741A2E5212004ED4A0 /* Indulge_BlissSpa_Condensed.png */; };
+		58607C771A2E5212004ED4A0 /* Indulge_FitGym_Condensed.png in Resources */ = {isa = PBXBuildFile; fileRef = 58607C751A2E5212004ED4A0 /* Indulge_FitGym_Condensed.png */; };
+		58607C7A1A2E5250004ED4A0 /* Indulge_BlissSpa_Expanded.png in Resources */ = {isa = PBXBuildFile; fileRef = 58607C781A2E5250004ED4A0 /* Indulge_BlissSpa_Expanded.png */; };
+		58607C7B1A2E5250004ED4A0 /* Indulge_FitGym_Expanded.png in Resources */ = {isa = PBXBuildFile; fileRef = 58607C791A2E5250004ED4A0 /* Indulge_FitGym_Expanded.png */; };
+		58607C7D1A2E52B1004ED4A0 /* IndulgePicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58607C7C1A2E52B1004ED4A0 /* IndulgePicture.jpg */; };
+		58607C7F1A2E52E6004ED4A0 /* IndulgePage_Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 58607C7E1A2E52E6004ED4A0 /* IndulgePage_Title.png */; };
+		58607C821A2E56D8004ED4A0 /* IndulgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58607C811A2E56D8004ED4A0 /* IndulgeController.m */; };
 		588172B51A1AD57A00E865E5 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588172B41A1AD57A00E865E5 /* TabViewController.m */; };
 		588172B81A1ADAC300E865E5 /* DrinkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588172B71A1ADAC300E865E5 /* DrinkController.m */; };
 		588172C11A1AE04600E865E5 /* Drinks-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 588172BC1A1AE04600E865E5 /* Drinks-white.png */; };
@@ -148,6 +155,14 @@
 		581CE0441A1EE5F000BB6162 /* Induldge-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Induldge-green.png"; sourceTree = "<group>"; };
 		581CE0481A1EE99D00BB6162 /* Drinks-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drinks-green.png"; sourceTree = "<group>"; };
 		581CE04C1A1EEB6E00BB6162 /* Go-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Go-green.png"; sourceTree = "<group>"; };
+		58607C741A2E5212004ED4A0 /* Indulge_BlissSpa_Condensed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indulge_BlissSpa_Condensed.png; sourceTree = "<group>"; };
+		58607C751A2E5212004ED4A0 /* Indulge_FitGym_Condensed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indulge_FitGym_Condensed.png; sourceTree = "<group>"; };
+		58607C781A2E5250004ED4A0 /* Indulge_BlissSpa_Expanded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indulge_BlissSpa_Expanded.png; sourceTree = "<group>"; };
+		58607C791A2E5250004ED4A0 /* Indulge_FitGym_Expanded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indulge_FitGym_Expanded.png; sourceTree = "<group>"; };
+		58607C7C1A2E52B1004ED4A0 /* IndulgePicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IndulgePicture.jpg; sourceTree = "<group>"; };
+		58607C7E1A2E52E6004ED4A0 /* IndulgePage_Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IndulgePage_Title.png; sourceTree = "<group>"; };
+		58607C801A2E56D8004ED4A0 /* IndulgeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndulgeController.h; sourceTree = "<group>"; };
+		58607C811A2E56D8004ED4A0 /* IndulgeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndulgeController.m; sourceTree = "<group>"; };
 		588172B31A1AD57A00E865E5 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
 		588172B41A1AD57A00E865E5 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
 		588172B61A1ADAC300E865E5 /* DrinkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkController.h; sourceTree = "<group>"; };
@@ -219,6 +234,8 @@
 				0327CD5B1A1A00160056EF22 /* AppDelegate.h */,
 				0327CD5C1A1A00160056EF22 /* AppDelegate.m */,
 				0327CD5E1A1A00160056EF22 /* Main.storyboard */,
+				58607C801A2E56D8004ED4A0 /* IndulgeController.h */,
+				58607C811A2E56D8004ED4A0 /* IndulgeController.m */,
 				580A3EB81A2E264C00ADFDD6 /* GoController.h */,
 				580A3EB91A2E264C00ADFDD6 /* GoController.m */,
 				172CD8D61A22E5C600D18A25 /* DineController.h */,
@@ -369,9 +386,23 @@
 			name = Go;
 			sourceTree = "<group>";
 		};
+		58607C731A2E51BB004ED4A0 /* Indulge */ = {
+			isa = PBXGroup;
+			children = (
+				58607C7E1A2E52E6004ED4A0 /* IndulgePage_Title.png */,
+				58607C7C1A2E52B1004ED4A0 /* IndulgePicture.jpg */,
+				58607C781A2E5250004ED4A0 /* Indulge_BlissSpa_Expanded.png */,
+				58607C791A2E5250004ED4A0 /* Indulge_FitGym_Expanded.png */,
+				58607C741A2E5212004ED4A0 /* Indulge_BlissSpa_Condensed.png */,
+				58607C751A2E5212004ED4A0 /* Indulge_FitGym_Condensed.png */,
+			);
+			name = Indulge;
+			sourceTree = "<group>";
+		};
 		588172B91A1ADF6E00E865E5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				58607C731A2E51BB004ED4A0 /* Indulge */,
 				580A3EAF1A2E243500ADFDD6 /* Go */,
 				0376A90F1A2468D600605EC4 /* Drink */,
 				0376A90A1A243EBF00605EC4 /* Profile */,
@@ -506,7 +537,10 @@
 				172CD8E61A22EB6300D18A25 /* What-Whenever.png in Resources */,
 				588172C41A1AE04600E865E5 /* W-W-white.png in Resources */,
 				17FD79441A2D315500136B87 /* Dine_TheLivingRoom_Expanded.png in Resources */,
+				58607C7F1A2E52E6004ED4A0 /* IndulgePage_Title.png in Resources */,
 				588172C31A1AE04600E865E5 /* Induldge-white.png in Resources */,
+				58607C7B1A2E5250004ED4A0 /* Indulge_FitGym_Expanded.png in Resources */,
+				58607C761A2E5212004ED4A0 /* Indulge_BlissSpa_Condensed.png in Resources */,
 				172CD8EE1A22F69100D18A25 /* Dine.png in Resources */,
 				581CE03A1A1EDEF300BB6162 /* W-W-green.png in Resources */,
 				172CD8EC1A22ECB000D18A25 /* Call-W-W-button.png in Resources */,
@@ -515,6 +549,8 @@
 				580A3EB51A2E258700ADFDD6 /* GoText.png in Resources */,
 				581CE0491A1EE99D00BB6162 /* Drinks-green.png in Resources */,
 				0376A91B1A24782700605EC4 /* DrinksText_LivingRoomBar_Condensed.png in Resources */,
+				58607C7D1A2E52B1004ED4A0 /* IndulgePicture.jpg in Resources */,
+				58607C771A2E5212004ED4A0 /* Indulge_FitGym_Condensed.png in Resources */,
 				581CE03F1A1EE19C00BB6162 /* Dine-green.png in Resources */,
 				0376A9361A2D749700605EC4 /* Drinks_TheLivingRoomBar_Expanded.png in Resources */,
 				580A3EB31A2E247100ADFDD6 /* Go.png in Resources */,
@@ -529,6 +565,7 @@
 				172CD8DB1A22E64E00D18A25 /* DinePicture.jpg in Resources */,
 				588172C11A1AE04600E865E5 /* Drinks-white.png in Resources */,
 				588172C71A1AE11000E865E5 /* Dine-white.png in Resources */,
+				58607C7A1A2E5250004ED4A0 /* Indulge_BlissSpa_Expanded.png in Resources */,
 				0327CD841A1A00410056EF22 /* W-Center-logo.png in Resources */,
 				0376A93A1A2D74A200605EC4 /* Drinks_TheLivingRoomBar_Condensed.png in Resources */,
 				0376A9171A246F5800605EC4 /* Profile button.png in Resources */,
@@ -556,6 +593,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58607C821A2E56D8004ED4A0 /* IndulgeController.m in Sources */,
 				0327CD631A1A00160056EF22 /* ViewController.m in Sources */,
 				0327CD5D1A1A00160056EF22 /* AppDelegate.m in Sources */,
 				0376A9091A2438DC00605EC4 /* ProfileViewController.m in Sources */,
