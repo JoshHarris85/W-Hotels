@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FacebookSDK/FacebookSDK.h>
 
 @interface IndulgeController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *blissButton;

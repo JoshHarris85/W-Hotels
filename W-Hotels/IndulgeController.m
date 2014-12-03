@@ -82,5 +82,25 @@
 - (BOOL)prefersStatusBarHidden{
     return YES;
 }
+- (IBAction)shareOnFacebook:(id)sender
+{
+    if (sender == self.fitFavorite)
+    {
+        NSURL *url = [ [ NSURL alloc ] initWithString: @"https://www.facebook.com/WHotelsTest" ];
+        [[UIApplication sharedApplication] openURL:url];
+    }
+    else
+    {
+        NSURL *url = [ [ NSURL alloc ] initWithString: @"https://www.facebook.com/pages/Bliss-Spa-W-Hotel-Dallas/110698632321038?pnref=story" ];
+        [[UIApplication sharedApplication] openURL:url];
+    }
+    /*[FBRequestConnection startForPostStatusUpdate:@"Just testing the API."
+                                place: @572480456187099
+                                             tags: nil
+                                completionHandler:^(FBRequestConnection *connection, id result, NSError *error) {
+                                    NSLog(@"Response....... \n\n %@  %@ %@",connection,result,error);
+                                }];*/
+}
+
 
 @end

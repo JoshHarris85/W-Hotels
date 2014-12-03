@@ -63,6 +63,7 @@
 		581CE0451A1EE5F000BB6162 /* Induldge-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 581CE0441A1EE5F000BB6162 /* Induldge-green.png */; };
 		581CE0491A1EE99D00BB6162 /* Drinks-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 581CE0481A1EE99D00BB6162 /* Drinks-green.png */; };
 		581CE04D1A1EEB6E00BB6162 /* Go-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 581CE04C1A1EEB6E00BB6162 /* Go-green.png */; };
+		583E8A4E1A2E853E00EF03FF /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583E8A4D1A2E853E00EF03FF /* FacebookSDK.framework */; };
 		58607C761A2E5212004ED4A0 /* Indulge_BlissSpa_Condensed.png in Resources */ = {isa = PBXBuildFile; fileRef = 58607C741A2E5212004ED4A0 /* Indulge_BlissSpa_Condensed.png */; };
 		58607C771A2E5212004ED4A0 /* Indulge_FitGym_Condensed.png in Resources */ = {isa = PBXBuildFile; fileRef = 58607C751A2E5212004ED4A0 /* Indulge_FitGym_Condensed.png */; };
 		58607C7A1A2E5250004ED4A0 /* Indulge_BlissSpa_Expanded.png in Resources */ = {isa = PBXBuildFile; fileRef = 58607C781A2E5250004ED4A0 /* Indulge_BlissSpa_Expanded.png */; };
@@ -155,6 +156,7 @@
 		581CE0441A1EE5F000BB6162 /* Induldge-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Induldge-green.png"; sourceTree = "<group>"; };
 		581CE0481A1EE99D00BB6162 /* Drinks-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drinks-green.png"; sourceTree = "<group>"; };
 		581CE04C1A1EEB6E00BB6162 /* Go-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Go-green.png"; sourceTree = "<group>"; };
+		583E8A4D1A2E853E00EF03FF /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		58607C741A2E5212004ED4A0 /* Indulge_BlissSpa_Condensed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indulge_BlissSpa_Condensed.png; sourceTree = "<group>"; };
 		58607C751A2E5212004ED4A0 /* Indulge_FitGym_Condensed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indulge_FitGym_Condensed.png; sourceTree = "<group>"; };
 		58607C781A2E5250004ED4A0 /* Indulge_BlissSpa_Expanded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indulge_BlissSpa_Expanded.png; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0327CD4F1A1A00160056EF22 /* CoreGraphics.framework in Frameworks */,
+				583E8A4E1A2E853E00EF03FF /* FacebookSDK.framework in Frameworks */,
 				0327CD511A1A00160056EF22 /* UIKit.framework in Frameworks */,
 				0327CD4D1A1A00160056EF22 /* Foundation.framework in Frameworks */,
 			);
@@ -220,6 +223,7 @@
 		0327CD4B1A1A00160056EF22 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				583E8A4D1A2E853E00EF03FF /* FacebookSDK.framework */,
 				0327CD4C1A1A00160056EF22 /* Foundation.framework */,
 				0327CD4E1A1A00160056EF22 /* CoreGraphics.framework */,
 				0327CD501A1A00160056EF22 /* UIKit.framework */,
@@ -727,6 +731,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "W-Hotels/W-Hotels-Prefix.pch";
 				INFOPLIST_FILE = "W-Hotels/W-Hotels-Info.plist";
@@ -741,6 +749,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "W-Hotels/W-Hotels-Prefix.pch";
 				INFOPLIST_FILE = "W-Hotels/W-Hotels-Info.plist";

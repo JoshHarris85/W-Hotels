@@ -355,11 +355,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IndulgePicture.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Er9-cU-is9">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background-transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="6eQ-Zc-ZZr">
                                 <rect key="frame" x="0.0" y="259" width="320" height="260"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IndulgePicture.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Er9-cU-is9">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vX7-KK-37i">
                                 <rect key="frame" x="0.0" y="0.0" width="30" height="27"/>
@@ -396,6 +396,9 @@
                                 <state key="normal" image="Rewards-button.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="shareOnFacebook:" destination="sMR-29-jhp" eventType="touchUpInside" id="goC-KT-9z5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Urg-qz-kDE">
                                 <rect key="frame" x="279" y="400" width="31" height="31"/>
@@ -411,6 +414,9 @@
                                 <state key="normal" image="Rewards-button.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="shareOnFacebook:" destination="sMR-29-jhp" eventType="touchUpInside" id="BjN-9S-t5X"/>
+                                </connections>
                             </button>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Indulge_BlissSpa_Expanded.png" translatesAutoresizingMaskIntoConstraints="NO" id="DbM-VF-jdr">
                                 <rect key="frame" x="6" y="72" width="271" height="411"/>

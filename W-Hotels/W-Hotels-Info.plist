@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>edu.okstate.cs.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>edu.okstate.cs.$(PRODUCT_NAME:rfc1034identifier)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -27,8 +27,19 @@
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
+	<array/>
+	<key>FacebookAppID</key>
+	<string>831973776825389</string>
+	<key>FacebookDisplayName</key>
+	<string>W Hotels</string>
+	<key>CFBundleURLTypes</key>
 	<array>
-		<string>armv7</string>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb831973776825389</string>
+			</array>
+		</dict>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
